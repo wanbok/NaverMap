@@ -1,0 +1,1 @@
+../../../../../Pod/SDK/Lib/NMapViewer/Headers/NMapLocationManager.h

@@ -7,445 +7,263 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08350C3599B43C496076534AB48180DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		14B261977FFC75C111AE6CD759A537F7 /* Pods-NaverMap_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC24C406AC26625933FFFB60C3B76E93 /* Pods-NaverMap_Tests-dummy.m */; };
-		1B9BDD058B20042DE20A457054C1B9AA /* Pods-NaverMap_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC21C7371098637277E0D1282F5E54E /* Pods-NaverMap_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49B6076A13A5A98690C89C5FF8146411 /* Pods-NaverMap_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE6CC7DF67879B439951855AC6E01D5 /* Pods-NaverMap_Example-dummy.m */; };
-		56AAC7A71C9C4C2900B02759 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7551C9C4C2900B02759 /* .gitignore */; };
-		56AAC7A81C9C4C2900B02759 /* NMapViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7571C9C4C2900B02759 /* NMapViewController.h */; };
-		56AAC7A91C9C4C2900B02759 /* NMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC7581C9C4C2900B02759 /* NMapViewController.m */; };
-		56AAC7AA1C9C4C2900B02759 /* NMapViewerLibAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7591C9C4C2900B02759 /* NMapViewerLibAppDelegate.h */; };
-		56AAC7AB1C9C4C2900B02759 /* NMapViewerLibAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC75A1C9C4C2900B02759 /* NMapViewerLibAppDelegate.m */; };
-		56AAC7AC1C9C4C2900B02759 /* NMapViewResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC75B1C9C4C2900B02759 /* NMapViewResource.h */; };
-		56AAC7AD1C9C4C2900B02759 /* NMapViewResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC75C1C9C4C2900B02759 /* NMapViewResource.m */; };
-		56AAC7AE1C9C4C2900B02759 /* NMacManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7601C9C4C2900B02759 /* NMacManager.h */; };
-		56AAC7AF1C9C4C2900B02759 /* NServiceMacManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7611C9C4C2900B02759 /* NServiceMacManager.h */; };
-		56AAC7B01C9C4C2900B02759 /* libApiGateway-MAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AAC7621C9C4C2900B02759 /* libApiGateway-MAC.a */; };
-		56AAC7B11C9C4C2900B02759 /* MMapReverseGeocoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7651C9C4C2900B02759 /* MMapReverseGeocoder.h */; };
-		56AAC7B21C9C4C2900B02759 /* NMapCircleData.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7661C9C4C2900B02759 /* NMapCircleData.h */; };
-		56AAC7B31C9C4C2900B02759 /* NMapCirclePoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7671C9C4C2900B02759 /* NMapCirclePoint.h */; };
-		56AAC7B41C9C4C2900B02759 /* NMapCircleStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7681C9C4C2900B02759 /* NMapCircleStyle.h */; };
-		56AAC7B51C9C4C2900B02759 /* NMapController.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7691C9C4C2900B02759 /* NMapController.h */; };
-		56AAC7B61C9C4C2900B02759 /* NMapError.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC76A1C9C4C2900B02759 /* NMapError.h */; };
-		56AAC7B71C9C4C2900B02759 /* NMapGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC76B1C9C4C2900B02759 /* NMapGeometry.h */; };
-		56AAC7B81C9C4C2900B02759 /* NMapLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC76C1C9C4C2900B02759 /* NMapLocationManager.h */; };
-		56AAC7B91C9C4C2900B02759 /* NMapMyLocationOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC76D1C9C4C2900B02759 /* NMapMyLocationOverlay.h */; };
-		56AAC7BA1C9C4C2900B02759 /* NMapOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC76E1C9C4C2900B02759 /* NMapOverlay.h */; };
-		56AAC7BB1C9C4C2900B02759 /* NMapOverlayManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC76F1C9C4C2900B02759 /* NMapOverlayManager.h */; };
-		56AAC7BC1C9C4C2900B02759 /* NMapPathData.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7701C9C4C2900B02759 /* NMapPathData.h */; };
-		56AAC7BD1C9C4C2900B02759 /* NMapPathDataOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7711C9C4C2900B02759 /* NMapPathDataOverlay.h */; };
-		56AAC7BE1C9C4C2900B02759 /* NMapPathLineStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7721C9C4C2900B02759 /* NMapPathLineStyle.h */; };
-		56AAC7BF1C9C4C2900B02759 /* NMapPathPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7731C9C4C2900B02759 /* NMapPathPoint.h */; };
-		56AAC7C01C9C4C2900B02759 /* NMapPathSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7741C9C4C2900B02759 /* NMapPathSegment.h */; };
-		56AAC7C11C9C4C2900B02759 /* NMapPlacemark.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7751C9C4C2900B02759 /* NMapPlacemark.h */; };
-		56AAC7C21C9C4C2900B02759 /* NMapPOIdataOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7761C9C4C2900B02759 /* NMapPOIdataOverlay.h */; };
-		56AAC7C31C9C4C2900B02759 /* NMapPOIitem.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7771C9C4C2900B02759 /* NMapPOIitem.h */; };
-		56AAC7C41C9C4C2900B02759 /* NMapProjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7781C9C4C2900B02759 /* NMapProjection.h */; };
-		56AAC7C51C9C4C2900B02759 /* NMapRadiusSettingOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7791C9C4C2900B02759 /* NMapRadiusSettingOverlay.h */; };
-		56AAC7C61C9C4C2900B02759 /* NMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC77A1C9C4C2900B02759 /* NMapView.h */; };
-		56AAC7C71C9C4C2900B02759 /* NMapViewQuartz.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC77B1C9C4C2900B02759 /* NMapViewQuartz.h */; };
-		56AAC7C81C9C4C2900B02759 /* NMapViewRotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC77C1C9C4C2900B02759 /* NMapViewRotation.h */; };
-		56AAC7C91C9C4C2900B02759 /* libNMapViewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AAC77D1C9C4C2900B02759 /* libNMapViewer.a */; };
-		56AAC7CA1C9C4C2900B02759 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC77E1C9C4C2900B02759 /* main.m */; };
-		56AAC7CB1C9C4C2900B02759 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC77F1C9C4C2900B02759 /* MainWindow.xib */; };
-		56AAC7CC1C9C4C2900B02759 /* NMapViewerLib-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7801C9C4C2900B02759 /* NMapViewerLib-Info.plist */; };
-		56AAC7CD1C9C4C2900B02759 /* NMapViewerLib_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7841C9C4C2900B02759 /* NMapViewerLib_Prefix.pch */; };
-		56AAC7CE1C9C4C2900B02759 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC7851C9C4C2900B02759 /* README.md */; };
-		56AAC7CF1C9C4C2900B02759 /* arr_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7871C9C4C2900B02759 /* arr_icon.png */; };
-		56AAC7D01C9C4C2900B02759 /* arr_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7881C9C4C2900B02759 /* arr_icon@2x.png */; };
-		56AAC7D11C9C4C2900B02759 /* arr_icon_over.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7891C9C4C2900B02759 /* arr_icon_over.png */; };
-		56AAC7D21C9C4C2900B02759 /* arr_icon_over@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC78A1C9C4C2900B02759 /* arr_icon_over@2x.png */; };
-		56AAC7D31C9C4C2900B02759 /* by_00.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC78B1C9C4C2900B02759 /* by_00.png */; };
-		56AAC7D41C9C4C2900B02759 /* by_00_over.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC78C1C9C4C2900B02759 /* by_00_over.png */; };
-		56AAC7D51C9C4C2900B02759 /* ic_angle.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC78D1C9C4C2900B02759 /* ic_angle.png */; };
-		56AAC7D61C9C4C2900B02759 /* ic_angle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC78E1C9C4C2900B02759 /* ic_angle@2x.png */; };
-		56AAC7D71C9C4C2900B02759 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC78F1C9C4C2900B02759 /* Icon.png */; };
-		56AAC7D81C9C4C2900B02759 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7901C9C4C2900B02759 /* Icon@2x.png */; };
-		56AAC7D91C9C4C2900B02759 /* pin_ballon_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7911C9C4C2900B02759 /* pin_ballon_arrow.png */; };
-		56AAC7DA1C9C4C2900B02759 /* pin_ballon_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7921C9C4C2900B02759 /* pin_ballon_arrow@2x.png */; };
-		56AAC7DB1C9C4C2900B02759 /* pin_ballon_arrow_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7931C9C4C2900B02759 /* pin_ballon_arrow_on.png */; };
-		56AAC7DC1C9C4C2900B02759 /* pin_ballon_arrow_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7941C9C4C2900B02759 /* pin_ballon_arrow_on@2x.png */; };
-		56AAC7DD1C9C4C2900B02759 /* pin_ballon_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7951C9C4C2900B02759 /* pin_ballon_bottom.png */; };
-		56AAC7DE1C9C4C2900B02759 /* pin_ballon_bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7961C9C4C2900B02759 /* pin_ballon_bottom@2x.png */; };
-		56AAC7DF1C9C4C2900B02759 /* pin_ballon_center.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7971C9C4C2900B02759 /* pin_ballon_center.png */; };
-		56AAC7E01C9C4C2900B02759 /* pin_ballon_center@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7981C9C4C2900B02759 /* pin_ballon_center@2x.png */; };
-		56AAC7E11C9C4C2900B02759 /* pin_ballon_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7991C9C4C2900B02759 /* pin_ballon_left.png */; };
-		56AAC7E21C9C4C2900B02759 /* pin_ballon_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC79A1C9C4C2900B02759 /* pin_ballon_left@2x.png */; };
-		56AAC7E31C9C4C2900B02759 /* pin_ballon_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC79B1C9C4C2900B02759 /* pin_ballon_right.png */; };
-		56AAC7E41C9C4C2900B02759 /* pin_ballon_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC79C1C9C4C2900B02759 /* pin_ballon_right@2x.png */; };
-		56AAC7E51C9C4C2900B02759 /* pubtrans_exact_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC79D1C9C4C2900B02759 /* pubtrans_exact_default.png */; };
-		56AAC7E61C9C4C2900B02759 /* pubtrans_exact_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC79E1C9C4C2900B02759 /* pubtrans_exact_default@2x.png */; };
-		56AAC7E71C9C4C2900B02759 /* pubtrans_ic_mylocation_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC79F1C9C4C2900B02759 /* pubtrans_ic_mylocation_off.png */; };
-		56AAC7E81C9C4C2900B02759 /* pubtrans_ic_mylocation_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7A01C9C4C2900B02759 /* pubtrans_ic_mylocation_off@2x.png */; };
-		56AAC7E91C9C4C2900B02759 /* pubtrans_ic_mylocation_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7A11C9C4C2900B02759 /* pubtrans_ic_mylocation_on.png */; };
-		56AAC7EA1C9C4C2900B02759 /* pubtrans_ic_mylocation_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7A21C9C4C2900B02759 /* pubtrans_ic_mylocation_on@2x.png */; };
-		56AAC7EB1C9C4C2900B02759 /* start_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7A31C9C4C2900B02759 /* start_icon.png */; };
-		56AAC7EC1C9C4C2900B02759 /* start_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7A41C9C4C2900B02759 /* start_icon@2x.png */; };
-		56AAC7ED1C9C4C2900B02759 /* start_icon_over.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7A51C9C4C2900B02759 /* start_icon_over.png */; };
-		56AAC7EE1C9C4C2900B02759 /* start_icon_over@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7A61C9C4C2900B02759 /* start_icon_over@2x.png */; };
-		66CD48C94184F9D6B67D34BBE6B0430B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		6A4A135B35EA795DAE6A6922540967A6 /* NaverMap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEA8A72232C3A2281408C16A0D2AD20 /* NaverMap-dummy.m */; };
-		9BAEBED718B104BF225C70529C1C6828 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		BB2584D70CFDCBD4FBBD272F0386DC95 /* NaverMap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C08E7BD532E1220C46FAB4B6755DB2 /* NaverMap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE3ED2A43D3A7D31AF6DC608F35860D7 /* NaverMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B2AFADF7BDD4D45780655938D6DCC495 /* NaverMap.bundle */; };
-		F892D4ACA19062F37ECBE135C93447C8 /* Pods-NaverMap_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 964B90DC3C5098F0A585768407A9636D /* Pods-NaverMap_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0039E7655EF16897394CBADB13C3B1F7 /* ic_angle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B9DE50BAFC4F5E3AB92F88854FD513 /* ic_angle@2x.png */; };
+		0BCABEAC19AB177B1C94950F59CE0AA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		0BCF9ACB6929FA87AAB36D2AFB17B241 /* Pods-NaverMap_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC21C7371098637277E0D1282F5E54E /* Pods-NaverMap_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DB2E9B45D8AF49879722A036DF383CC /* pubtrans_ic_mylocation_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B1F56405726607605A488547DCE38B /* pubtrans_ic_mylocation_off.png */; };
+		1513229F24C4F9EFF3F6FDECA097EED8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		281BBD684C8DF8033956073BA110234C /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD12B795AEE1DB20E8A81E3F9A17B4F /* Icon@2x.png */; };
+		2A00D0EB9F71C47757493226722B8864 /* Pods-NaverMap_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 964B90DC3C5098F0A585768407A9636D /* Pods-NaverMap_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		349E4AFB22FC13FDA008569357BA21C5 /* arr_icon_over.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E522BE9C5012DF830C8A8E990D7E92D /* arr_icon_over.png */; };
+		34B306B02B08AB2A9A90A22266A0AD3F /* pubtrans_exact_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19453A8722B2E7BC883A5F44F7B97F95 /* pubtrans_exact_default@2x.png */; };
+		369BE99C63F4F4F3E238847EA36E926B /* pubtrans_ic_mylocation_on.png in Resources */ = {isa = PBXBuildFile; fileRef = D751EF81BC51D2DA4CBD1444EC66AF81 /* pubtrans_ic_mylocation_on.png */; };
+		37E36FF91BF85DBDF15FDB612520DCA2 /* by_00.png in Resources */ = {isa = PBXBuildFile; fileRef = 28FC49B4A4BE407C0593D83AA5351CCE /* by_00.png */; };
+		37FDB55AEFEDD0265C1ABE4D8CEC640A /* Pods-NaverMap_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC24C406AC26625933FFFB60C3B76E93 /* Pods-NaverMap_Tests-dummy.m */; };
+		38952791F797388ED30C9568244FEFDC /* pin_ballon_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A1C0231C9CA633BD5D7C3E122A502E3 /* pin_ballon_bottom.png */; };
+		3AE734A58A4C8CD2F5311AC6CCF16507 /* start_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D861407F09CCCB7BF263526B6C6CDE /* start_icon.png */; };
+		3EE185BB29B3F0244C61FE0FA0E52672 /* ic_angle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD55111055ABE7F23506ABD55B279AB /* ic_angle.png */; };
+		4C9100467357F60365AACE4B0C3C01F9 /* arr_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D22E9A3E17C7AC7DAB94058E6713C56F /* arr_icon.png */; };
+		4D6CF4126EE4352815AA7CC25AC6E339 /* start_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AD5AF5709171069D621D9B32881818F /* start_icon@2x.png */; };
+		4F9A4A21EDF74BA5363F2F8BC2077DBF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C57133A1C4B283988337C54AF0E45C2E /* Icon.png */; };
+		6C58DF4B5616E4F4F102B062140618EC /* pin_ballon_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D47C1D0568E842C468917BDC37A656 /* pin_ballon_arrow.png */; };
+		7E6E6DC5834F8D1818FF0C2B039639DD /* by_00_over.png in Resources */ = {isa = PBXBuildFile; fileRef = 01ED685C7FE09CF9E27B76C6E2BC490A /* by_00_over.png */; };
+		83BAB5FCD67C3873163E3FBD76F7B7B2 /* arr_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9205855862F21D517CA62BE62AE6F3E6 /* arr_icon@2x.png */; };
+		875BA330FAC48A5748564E0F130D4A5B /* pubtrans_exact_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 86641B34E2C0B7D5D4B5624290C18437 /* pubtrans_exact_default.png */; };
+		8893018B6083B6DDD9022B8C2CCC7CA3 /* pin_ballon_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4C6E732DE2837A9BC153311713066EA /* pin_ballon_right@2x.png */; };
+		918CF1CAD3AEB9A4AA044A78E9792C2D /* pin_ballon_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B3BEEAEC3C9FFBC9F219824F3F7452 /* pin_ballon_left@2x.png */; };
+		A64C8E5BA59341BA134508C785D0355B /* pin_ballon_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 65EAA26329818181704DC20B008BE6E0 /* pin_ballon_left.png */; };
+		BCC80ECCBAD3339A5E6F644953E52B7B /* arr_icon_over@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34777ED7CF944A37C40B177C209E12CE /* arr_icon_over@2x.png */; };
+		C1DE0C069761D560BAA0230B0D226A96 /* start_icon_over.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B1CD8B0B6791B344C004DCAC90317F /* start_icon_over.png */; };
+		C4E3197BE1725036C57A8DF75CEF1C06 /* start_icon_over@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A533CB1B3F52B4DA0A68DBD4CA9678FB /* start_icon_over@2x.png */; };
+		CB219B0EBF355CA5E8ABE956BD7EDCE0 /* pubtrans_ic_mylocation_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A0225A43B78E2DBEC0A2DB71ACE1E7E /* pubtrans_ic_mylocation_off@2x.png */; };
+		CB700CF49C60445242D8BF531BBD575F /* pin_ballon_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81EA1C42B86359FCE923F47F33A1C55E /* pin_ballon_arrow@2x.png */; };
+		D60E4F45DA7817DC56747CCA8220C7DC /* pin_ballon_center.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEE6F1D0075E4B1EADC889523F1FE04 /* pin_ballon_center.png */; };
+		D842ABB05EF59F92C731D60022D71A72 /* pin_ballon_center@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE99C1DDD683A455BD8D6A546410E3DA /* pin_ballon_center@2x.png */; };
+		DA4C47BD9DDDD799E0CEC631BAB4F5EA /* pin_ballon_arrow_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B85199324F1EC78194802A1BCFC125D /* pin_ballon_arrow_on@2x.png */; };
+		DDE880D00BE607163AA885A1F1C9F421 /* pin_ballon_arrow_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 0392BF1312BDB53371572EBD296ED834 /* pin_ballon_arrow_on.png */; };
+		E05C3C0C1F5CD404218C8909145BA1B9 /* pin_ballon_bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CF89730C24E992D46E765D987D3BA3 /* pin_ballon_bottom@2x.png */; };
+		E8A8E7E86E61A72E0DB640D37DE7E02E /* pubtrans_ic_mylocation_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3BB8F9617D736EB92CDA7A466928BF3 /* pubtrans_ic_mylocation_on@2x.png */; };
+		F30EF873979E1F04A5EAFDE6FF4A7EC0 /* pin_ballon_right.png in Resources */ = {isa = PBXBuildFile; fileRef = FDF8BF84C8AF98E251878DC9FD39BA3A /* pin_ballon_right.png */; };
+		FFA892D196704A2BACC7FA142FAA8A93 /* Pods-NaverMap_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE6CC7DF67879B439951855AC6E01D5 /* Pods-NaverMap_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3E52BF9D37E8BB5BCB7FE2FF72F2BAAF /* PBXContainerItemProxy */ = {
+		6B26EB6FB301D758E558BEB10671F5C9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 22D859AE8ED8D015244E17288EC74837;
-			remoteInfo = NaverMap;
+			remoteGlobalIDString = 16E62B97CE36C9D951F78CB87BF23549;
+			remoteInfo = "NaverMap-NaverMap";
 		};
-		56AAC7F01C9C4C2900B02759 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 56AAC7811C9C4C2900B02759 /* NMapViewerLib.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1D6058910D05DD3D006BFB54;
-			remoteInfo = NMapViewerLib;
-		};
-		70E01A67B5A00C45A6C7F8E850477D01 /* PBXContainerItemProxy */ = {
+		BBD3CAFB804979D41E1FB39108A284D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 22D859AE8ED8D015244E17288EC74837;
-			remoteInfo = NaverMap;
-		};
-		DB525501216DE811AAE2B5873F360DD8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 866482AB62865023FC8F81A752FE1150;
+			remoteGlobalIDString = 16E62B97CE36C9D951F78CB87BF23549;
 			remoteInfo = "NaverMap-NaverMap";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		187F581018508726FABEB10FF0AF428C /* NaverMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NaverMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2282F26F76668EF69C155355D1EAED49 /* Pods_NaverMap_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaverMap_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01ED685C7FE09CF9E27B76C6E2BC490A /* by_00_over.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = by_00_over.png; sourceTree = "<group>"; };
+		0392BF1312BDB53371572EBD296ED834 /* pin_ballon_arrow_on.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = pin_ballon_arrow_on.png; sourceTree = "<group>"; };
+		0E522BE9C5012DF830C8A8E990D7E92D /* arr_icon_over.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = arr_icon_over.png; sourceTree = "<group>"; };
+		19453A8722B2E7BC883A5F44F7B97F95 /* pubtrans_exact_default@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "pubtrans_exact_default@2x.png"; sourceTree = "<group>"; };
+		28FC49B4A4BE407C0593D83AA5351CCE /* by_00.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = by_00.png; sourceTree = "<group>"; };
+		2A1C0231C9CA633BD5D7C3E122A502E3 /* pin_ballon_bottom.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = pin_ballon_bottom.png; sourceTree = "<group>"; };
+		2AD5AF5709171069D621D9B32881818F /* start_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "start_icon@2x.png"; sourceTree = "<group>"; };
+		3473640C1700CBC047593D2AE44DBFB1 /* Pods_NaverMap_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaverMap_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34777ED7CF944A37C40B177C209E12CE /* arr_icon_over@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "arr_icon_over@2x.png"; sourceTree = "<group>"; };
+		3A0225A43B78E2DBEC0A2DB71ACE1E7E /* pubtrans_ic_mylocation_off@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "pubtrans_ic_mylocation_off@2x.png"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		440783AA5798F1502CA408A5F560C8A8 /* NaverMap.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NaverMap.xcconfig; sourceTree = "<group>"; };
 		4AE91135F334044405FCEF611BD4340D /* Pods-NaverMap_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaverMap_Example-frameworks.sh"; sourceTree = "<group>"; };
-		56AAC7551C9C4C2900B02759 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		56AAC7571C9C4C2900B02759 /* NMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapViewController.h; sourceTree = "<group>"; };
-		56AAC7581C9C4C2900B02759 /* NMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMapViewController.m; sourceTree = "<group>"; };
-		56AAC7591C9C4C2900B02759 /* NMapViewerLibAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapViewerLibAppDelegate.h; sourceTree = "<group>"; };
-		56AAC75A1C9C4C2900B02759 /* NMapViewerLibAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMapViewerLibAppDelegate.m; sourceTree = "<group>"; };
-		56AAC75B1C9C4C2900B02759 /* NMapViewResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapViewResource.h; sourceTree = "<group>"; };
-		56AAC75C1C9C4C2900B02759 /* NMapViewResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMapViewResource.m; sourceTree = "<group>"; };
-		56AAC7601C9C4C2900B02759 /* NMacManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMacManager.h; sourceTree = "<group>"; };
-		56AAC7611C9C4C2900B02759 /* NServiceMacManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NServiceMacManager.h; sourceTree = "<group>"; };
-		56AAC7621C9C4C2900B02759 /* libApiGateway-MAC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libApiGateway-MAC.a"; sourceTree = "<group>"; };
-		56AAC7651C9C4C2900B02759 /* MMapReverseGeocoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMapReverseGeocoder.h; sourceTree = "<group>"; };
-		56AAC7661C9C4C2900B02759 /* NMapCircleData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapCircleData.h; sourceTree = "<group>"; };
-		56AAC7671C9C4C2900B02759 /* NMapCirclePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapCirclePoint.h; sourceTree = "<group>"; };
-		56AAC7681C9C4C2900B02759 /* NMapCircleStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapCircleStyle.h; sourceTree = "<group>"; };
-		56AAC7691C9C4C2900B02759 /* NMapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapController.h; sourceTree = "<group>"; };
-		56AAC76A1C9C4C2900B02759 /* NMapError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapError.h; sourceTree = "<group>"; };
-		56AAC76B1C9C4C2900B02759 /* NMapGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapGeometry.h; sourceTree = "<group>"; };
-		56AAC76C1C9C4C2900B02759 /* NMapLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapLocationManager.h; sourceTree = "<group>"; };
-		56AAC76D1C9C4C2900B02759 /* NMapMyLocationOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapMyLocationOverlay.h; sourceTree = "<group>"; };
-		56AAC76E1C9C4C2900B02759 /* NMapOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapOverlay.h; sourceTree = "<group>"; };
-		56AAC76F1C9C4C2900B02759 /* NMapOverlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapOverlayManager.h; sourceTree = "<group>"; };
-		56AAC7701C9C4C2900B02759 /* NMapPathData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapPathData.h; sourceTree = "<group>"; };
-		56AAC7711C9C4C2900B02759 /* NMapPathDataOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapPathDataOverlay.h; sourceTree = "<group>"; };
-		56AAC7721C9C4C2900B02759 /* NMapPathLineStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapPathLineStyle.h; sourceTree = "<group>"; };
-		56AAC7731C9C4C2900B02759 /* NMapPathPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapPathPoint.h; sourceTree = "<group>"; };
-		56AAC7741C9C4C2900B02759 /* NMapPathSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapPathSegment.h; sourceTree = "<group>"; };
-		56AAC7751C9C4C2900B02759 /* NMapPlacemark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapPlacemark.h; sourceTree = "<group>"; };
-		56AAC7761C9C4C2900B02759 /* NMapPOIdataOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapPOIdataOverlay.h; sourceTree = "<group>"; };
-		56AAC7771C9C4C2900B02759 /* NMapPOIitem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapPOIitem.h; sourceTree = "<group>"; };
-		56AAC7781C9C4C2900B02759 /* NMapProjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapProjection.h; sourceTree = "<group>"; };
-		56AAC7791C9C4C2900B02759 /* NMapRadiusSettingOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapRadiusSettingOverlay.h; sourceTree = "<group>"; };
-		56AAC77A1C9C4C2900B02759 /* NMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapView.h; sourceTree = "<group>"; };
-		56AAC77B1C9C4C2900B02759 /* NMapViewQuartz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapViewQuartz.h; sourceTree = "<group>"; };
-		56AAC77C1C9C4C2900B02759 /* NMapViewRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapViewRotation.h; sourceTree = "<group>"; };
-		56AAC77D1C9C4C2900B02759 /* libNMapViewer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNMapViewer.a; sourceTree = "<group>"; };
-		56AAC77E1C9C4C2900B02759 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		56AAC77F1C9C4C2900B02759 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		56AAC7801C9C4C2900B02759 /* NMapViewerLib-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NMapViewerLib-Info.plist"; sourceTree = "<group>"; };
-		56AAC7811C9C4C2900B02759 /* NMapViewerLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = NMapViewerLib.xcodeproj; sourceTree = "<group>"; };
-		56AAC7841C9C4C2900B02759 /* NMapViewerLib_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapViewerLib_Prefix.pch; sourceTree = "<group>"; };
-		56AAC7851C9C4C2900B02759 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		56AAC7871C9C4C2900B02759 /* arr_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arr_icon.png; sourceTree = "<group>"; };
-		56AAC7881C9C4C2900B02759 /* arr_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arr_icon@2x.png"; sourceTree = "<group>"; };
-		56AAC7891C9C4C2900B02759 /* arr_icon_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arr_icon_over.png; sourceTree = "<group>"; };
-		56AAC78A1C9C4C2900B02759 /* arr_icon_over@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arr_icon_over@2x.png"; sourceTree = "<group>"; };
-		56AAC78B1C9C4C2900B02759 /* by_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = by_00.png; sourceTree = "<group>"; };
-		56AAC78C1C9C4C2900B02759 /* by_00_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = by_00_over.png; sourceTree = "<group>"; };
-		56AAC78D1C9C4C2900B02759 /* ic_angle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_angle.png; sourceTree = "<group>"; };
-		56AAC78E1C9C4C2900B02759 /* ic_angle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_angle@2x.png"; sourceTree = "<group>"; };
-		56AAC78F1C9C4C2900B02759 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		56AAC7901C9C4C2900B02759 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
-		56AAC7911C9C4C2900B02759 /* pin_ballon_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_ballon_arrow.png; sourceTree = "<group>"; };
-		56AAC7921C9C4C2900B02759 /* pin_ballon_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin_ballon_arrow@2x.png"; sourceTree = "<group>"; };
-		56AAC7931C9C4C2900B02759 /* pin_ballon_arrow_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_ballon_arrow_on.png; sourceTree = "<group>"; };
-		56AAC7941C9C4C2900B02759 /* pin_ballon_arrow_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin_ballon_arrow_on@2x.png"; sourceTree = "<group>"; };
-		56AAC7951C9C4C2900B02759 /* pin_ballon_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_ballon_bottom.png; sourceTree = "<group>"; };
-		56AAC7961C9C4C2900B02759 /* pin_ballon_bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin_ballon_bottom@2x.png"; sourceTree = "<group>"; };
-		56AAC7971C9C4C2900B02759 /* pin_ballon_center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_ballon_center.png; sourceTree = "<group>"; };
-		56AAC7981C9C4C2900B02759 /* pin_ballon_center@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin_ballon_center@2x.png"; sourceTree = "<group>"; };
-		56AAC7991C9C4C2900B02759 /* pin_ballon_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_ballon_left.png; sourceTree = "<group>"; };
-		56AAC79A1C9C4C2900B02759 /* pin_ballon_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin_ballon_left@2x.png"; sourceTree = "<group>"; };
-		56AAC79B1C9C4C2900B02759 /* pin_ballon_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_ballon_right.png; sourceTree = "<group>"; };
-		56AAC79C1C9C4C2900B02759 /* pin_ballon_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin_ballon_right@2x.png"; sourceTree = "<group>"; };
-		56AAC79D1C9C4C2900B02759 /* pubtrans_exact_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pubtrans_exact_default.png; sourceTree = "<group>"; };
-		56AAC79E1C9C4C2900B02759 /* pubtrans_exact_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pubtrans_exact_default@2x.png"; sourceTree = "<group>"; };
-		56AAC79F1C9C4C2900B02759 /* pubtrans_ic_mylocation_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pubtrans_ic_mylocation_off.png; sourceTree = "<group>"; };
-		56AAC7A01C9C4C2900B02759 /* pubtrans_ic_mylocation_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pubtrans_ic_mylocation_off@2x.png"; sourceTree = "<group>"; };
-		56AAC7A11C9C4C2900B02759 /* pubtrans_ic_mylocation_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pubtrans_ic_mylocation_on.png; sourceTree = "<group>"; };
-		56AAC7A21C9C4C2900B02759 /* pubtrans_ic_mylocation_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pubtrans_ic_mylocation_on@2x.png"; sourceTree = "<group>"; };
-		56AAC7A31C9C4C2900B02759 /* start_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start_icon.png; sourceTree = "<group>"; };
-		56AAC7A41C9C4C2900B02759 /* start_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start_icon@2x.png"; sourceTree = "<group>"; };
-		56AAC7A51C9C4C2900B02759 /* start_icon_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start_icon_over.png; sourceTree = "<group>"; };
-		56AAC7A61C9C4C2900B02759 /* start_icon_over@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start_icon_over@2x.png"; sourceTree = "<group>"; };
 		59102EE73AA6D6FA65D27994D294D003 /* Pods-NaverMap_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NaverMap_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5B58D9DF5DEE044C412CA3DC920F5A87 /* Pods_NaverMap_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaverMap_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F0286E3AC0828B0661AF7618DA44C08 /* NaverMap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NaverMap.modulemap; sourceTree = "<group>"; };
+		5CD55111055ABE7F23506ABD55B279AB /* ic_angle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ic_angle.png; sourceTree = "<group>"; };
+		65EAA26329818181704DC20B008BE6E0 /* pin_ballon_left.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = pin_ballon_left.png; sourceTree = "<group>"; };
 		70CD51AFFA8FD767A3E67AB609FA7876 /* Pods-NaverMap_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaverMap_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		74D861407F09CCCB7BF263526B6C6CDE /* start_icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = start_icon.png; sourceTree = "<group>"; };
+		77B1F56405726607605A488547DCE38B /* pubtrans_ic_mylocation_off.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = pubtrans_ic_mylocation_off.png; sourceTree = "<group>"; };
+		7C8FD774172E00086F340037CDF7F277 /* NaverMap.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaverMap.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		81EA1C42B86359FCE923F47F33A1C55E /* pin_ballon_arrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "pin_ballon_arrow@2x.png"; sourceTree = "<group>"; };
 		824DFACD4B06EA8C2E259E190FDAFDE0 /* Pods-NaverMap_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NaverMap_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		85BF3F6944565AB2BB04CDFB60ACB687 /* Pods-NaverMap_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaverMap_Example-resources.sh"; sourceTree = "<group>"; };
+		86641B34E2C0B7D5D4B5624290C18437 /* pubtrans_exact_default.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = pubtrans_exact_default.png; sourceTree = "<group>"; };
+		91B1CD8B0B6791B344C004DCAC90317F /* start_icon_over.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = start_icon_over.png; sourceTree = "<group>"; };
+		9205855862F21D517CA62BE62AE6F3E6 /* arr_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "arr_icon@2x.png"; sourceTree = "<group>"; };
 		964B90DC3C5098F0A585768407A9636D /* Pods-NaverMap_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NaverMap_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9837879038D6C1C68B9EF88B8F3BE360 /* Pods-NaverMap_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaverMap_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B85199324F1EC78194802A1BCFC125D /* pin_ballon_arrow_on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "pin_ballon_arrow_on@2x.png"; sourceTree = "<group>"; };
+		A0CF89730C24E992D46E765D987D3BA3 /* pin_ballon_bottom@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "pin_ballon_bottom@2x.png"; sourceTree = "<group>"; };
 		A12AC26C09A6D032CFC3C472E0A79E2C /* Pods-NaverMap_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaverMap_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B2AFADF7BDD4D45780655938D6DCC495 /* NaverMap.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaverMap.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A533CB1B3F52B4DA0A68DBD4CA9678FB /* start_icon_over@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "start_icon_over@2x.png"; sourceTree = "<group>"; };
+		AAD12B795AEE1DB20E8A81E3F9A17B4F /* Icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		AD0F79FC5146BDD6479D8741B173064D /* libNMapViewer.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libNMapViewer.a; path = Pod/SDK/Lib/NMapViewer/libNMapViewer.a; sourceTree = "<group>"; };
+		B1729FEECA5B23900856C414C3B54249 /* Pods_NaverMap_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaverMap_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3BB8F9617D736EB92CDA7A466928BF3 /* pubtrans_ic_mylocation_on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "pubtrans_ic_mylocation_on@2x.png"; sourceTree = "<group>"; };
+		B4C6E732DE2837A9BC153311713066EA /* pin_ballon_right@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "pin_ballon_right@2x.png"; sourceTree = "<group>"; };
 		B8E2F6B4C17F4BE32B5E20BE1C90918A /* Pods-NaverMap_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaverMap_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BBE6CC7DF67879B439951855AC6E01D5 /* Pods-NaverMap_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NaverMap_Example-dummy.m"; sourceTree = "<group>"; };
-		BDEA8A72232C3A2281408C16A0D2AD20 /* NaverMap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NaverMap-dummy.m"; sourceTree = "<group>"; };
-		BE46980E37CBEB475E5C49022C851990 /* NaverMap-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NaverMap-prefix.pch"; sourceTree = "<group>"; };
+		BE4856CA38D3E54FBDFC3650C8A158AB /* NaverMap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NaverMap-umbrella.h"; sourceTree = "<group>"; };
+		C57133A1C4B283988337C54AF0E45C2E /* Icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		CB56F75FDF8CC13CFF089EB632E0149E /* Pods-NaverMap_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NaverMap_Tests.modulemap"; sourceTree = "<group>"; };
-		D66FD5EBB8945C8B3FBDA146A34AB150 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D22E9A3E17C7AC7DAB94058E6713C56F /* arr_icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = arr_icon.png; sourceTree = "<group>"; };
+		D3B3BEEAEC3C9FFBC9F219824F3F7452 /* pin_ballon_left@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "pin_ballon_left@2x.png"; sourceTree = "<group>"; };
+		D4B9DE50BAFC4F5E3AB92F88854FD513 /* ic_angle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_angle@2x.png"; sourceTree = "<group>"; };
+		D751EF81BC51D2DA4CBD1444EC66AF81 /* pubtrans_ic_mylocation_on.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = pubtrans_ic_mylocation_on.png; sourceTree = "<group>"; };
 		D79EEEA1D9FA9DD5C4681445A7D38EEE /* Pods-NaverMap_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaverMap_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		DAC21C7371098637277E0D1282F5E54E /* Pods-NaverMap_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NaverMap_Example-umbrella.h"; sourceTree = "<group>"; };
-		E5C08E7BD532E1220C46FAB4B6755DB2 /* NaverMap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NaverMap-umbrella.h"; sourceTree = "<group>"; };
+		DE99C1DDD683A455BD8D6A546410E3DA /* pin_ballon_center@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "pin_ballon_center@2x.png"; sourceTree = "<group>"; };
 		EBAD679F7E411E3A2D7AFCB644EDE967 /* Pods-NaverMap_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaverMap_Tests-resources.sh"; sourceTree = "<group>"; };
+		EBEE6F1D0075E4B1EADC889523F1FE04 /* pin_ballon_center.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = pin_ballon_center.png; sourceTree = "<group>"; };
 		EDCA4947D31B476C1E108A7AC9B40318 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0A462DCEB6C34AE0DD27A3BD35246B4 /* Pods-NaverMap_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaverMap_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F5D47C1D0568E842C468917BDC37A656 /* pin_ballon_arrow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = pin_ballon_arrow.png; sourceTree = "<group>"; };
 		F80E1B065CAB71A18B2916AA70C4644B /* Pods-NaverMap_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaverMap_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		FC24C406AC26625933FFFB60C3B76E93 /* Pods-NaverMap_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NaverMap_Tests-dummy.m"; sourceTree = "<group>"; };
 		FDA7D1AD4E8F0F1BD93DA7CB94FC7ABD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF8BF84C8AF98E251878DC9FD39BA3A /* pin_ballon_right.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = pin_ballon_right.png; sourceTree = "<group>"; };
+		FE79872CE7C2B602499459F279562B5C /* libApiGateway-MAC.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libApiGateway-MAC.a"; path = "Pod/SDK/Lib/ApiGateway/libApiGateway-MAC.a"; sourceTree = "<group>"; };
 		FE9BEBE637A7942B4CFBA379E0D6B507 /* Pods-NaverMap_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NaverMap_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3E14348908B219CB80B41F450F078C3D /* Frameworks */ = {
+		0EBF7548BAD218B66471A16560FF1C33 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		415C642F98B5AB7DB1C1E9CE6197D5F8 /* Frameworks */ = {
+		93FAE441E2B5D657CF8FFBFAF72CC1E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56AAC7C91C9C4C2900B02759 /* libNMapViewer.a in Frameworks */,
-				08350C3599B43C496076534AB48180DD /* Foundation.framework in Frameworks */,
-				56AAC7B01C9C4C2900B02759 /* libApiGateway-MAC.a in Frameworks */,
+				1513229F24C4F9EFF3F6FDECA097EED8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4684D29FC65BCC646ED978BCABF6BC76 /* Frameworks */ = {
+		F4D2A53A9D1FDD9F69556B43A591F7BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66CD48C94184F9D6B67D34BBE6B0430B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0FBB309BF81E4EEEFAD02F94098EF58 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9BAEBED718B104BF225C70529C1C6828 /* Foundation.framework in Frameworks */,
+				0BCABEAC19AB177B1C94950F59CE0AA6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		019EF3D6A16391ADBE4D716C262364A8 /* Classes */ = {
+		209D6427793C0C66880022AD78B94478 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D22E9A3E17C7AC7DAB94058E6713C56F /* arr_icon.png */,
+				9205855862F21D517CA62BE62AE6F3E6 /* arr_icon@2x.png */,
+				0E522BE9C5012DF830C8A8E990D7E92D /* arr_icon_over.png */,
+				34777ED7CF944A37C40B177C209E12CE /* arr_icon_over@2x.png */,
+				28FC49B4A4BE407C0593D83AA5351CCE /* by_00.png */,
+				01ED685C7FE09CF9E27B76C6E2BC490A /* by_00_over.png */,
+				5CD55111055ABE7F23506ABD55B279AB /* ic_angle.png */,
+				D4B9DE50BAFC4F5E3AB92F88854FD513 /* ic_angle@2x.png */,
+				C57133A1C4B283988337C54AF0E45C2E /* Icon.png */,
+				AAD12B795AEE1DB20E8A81E3F9A17B4F /* Icon@2x.png */,
+				F5D47C1D0568E842C468917BDC37A656 /* pin_ballon_arrow.png */,
+				81EA1C42B86359FCE923F47F33A1C55E /* pin_ballon_arrow@2x.png */,
+				0392BF1312BDB53371572EBD296ED834 /* pin_ballon_arrow_on.png */,
+				9B85199324F1EC78194802A1BCFC125D /* pin_ballon_arrow_on@2x.png */,
+				2A1C0231C9CA633BD5D7C3E122A502E3 /* pin_ballon_bottom.png */,
+				A0CF89730C24E992D46E765D987D3BA3 /* pin_ballon_bottom@2x.png */,
+				EBEE6F1D0075E4B1EADC889523F1FE04 /* pin_ballon_center.png */,
+				DE99C1DDD683A455BD8D6A546410E3DA /* pin_ballon_center@2x.png */,
+				65EAA26329818181704DC20B008BE6E0 /* pin_ballon_left.png */,
+				D3B3BEEAEC3C9FFBC9F219824F3F7452 /* pin_ballon_left@2x.png */,
+				FDF8BF84C8AF98E251878DC9FD39BA3A /* pin_ballon_right.png */,
+				B4C6E732DE2837A9BC153311713066EA /* pin_ballon_right@2x.png */,
+				86641B34E2C0B7D5D4B5624290C18437 /* pubtrans_exact_default.png */,
+				19453A8722B2E7BC883A5F44F7B97F95 /* pubtrans_exact_default@2x.png */,
+				77B1F56405726607605A488547DCE38B /* pubtrans_ic_mylocation_off.png */,
+				3A0225A43B78E2DBEC0A2DB71ACE1E7E /* pubtrans_ic_mylocation_off@2x.png */,
+				D751EF81BC51D2DA4CBD1444EC66AF81 /* pubtrans_ic_mylocation_on.png */,
+				B3BB8F9617D736EB92CDA7A466928BF3 /* pubtrans_ic_mylocation_on@2x.png */,
+				74D861407F09CCCB7BF263526B6C6CDE /* start_icon.png */,
+				2AD5AF5709171069D621D9B32881818F /* start_icon@2x.png */,
+				91B1CD8B0B6791B344C004DCAC90317F /* start_icon_over.png */,
+				A533CB1B3F52B4DA0A68DBD4CA9678FB /* start_icon_over@2x.png */,
 			);
-			path = Classes;
+			path = Resources;
 			sourceTree = "<group>";
 		};
-		5288F08EBEE98E94E39CEC0085F812DA /* Development Pods */ = {
+		2181D0434B622FAD050447B5F43ADE0E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AB915276D15D96CD3333F49C3EE7D5A7 /* NaverMap */,
+				546DF9F30B2103571AF473C4EF389D5F /* Pod */,
 			);
-			name = "Development Pods";
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		56AAC7541C9C4C2900B02759 /* SDK */ = {
+		546DF9F30B2103571AF473C4EF389D5F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				56AAC7551C9C4C2900B02759 /* .gitignore */,
-				56AAC7561C9C4C2900B02759 /* Classes */,
-				56AAC75D1C9C4C2900B02759 /* Lib */,
-				56AAC77E1C9C4C2900B02759 /* main.m */,
-				56AAC77F1C9C4C2900B02759 /* MainWindow.xib */,
-				56AAC7801C9C4C2900B02759 /* NMapViewerLib-Info.plist */,
-				56AAC7811C9C4C2900B02759 /* NMapViewerLib.xcodeproj */,
-				56AAC7841C9C4C2900B02759 /* NMapViewerLib_Prefix.pch */,
-				56AAC7851C9C4C2900B02759 /* README.md */,
-				56AAC7861C9C4C2900B02759 /* Resources */,
+				9C40D6666C12BDB721A9F22A5CCF0D75 /* SDK */,
 			);
-			path = SDK;
+			path = Pod;
 			sourceTree = "<group>";
 		};
-		56AAC7561C9C4C2900B02759 /* Classes */ = {
+		552E4094B25ECEA2395CCC3FA73C55E0 /* NaverMap */ = {
 			isa = PBXGroup;
 			children = (
-				56AAC7571C9C4C2900B02759 /* NMapViewController.h */,
-				56AAC7581C9C4C2900B02759 /* NMapViewController.m */,
-				56AAC7591C9C4C2900B02759 /* NMapViewerLibAppDelegate.h */,
-				56AAC75A1C9C4C2900B02759 /* NMapViewerLibAppDelegate.m */,
-				56AAC75B1C9C4C2900B02759 /* NMapViewResource.h */,
-				56AAC75C1C9C4C2900B02759 /* NMapViewResource.m */,
+				7912E06CEA22BE3FE90734FE1304576E /* Frameworks */,
+				E6304E6E3455DACA3397BF6EE4A8F0C0 /* Pod */,
+				2181D0434B622FAD050447B5F43ADE0E /* Resources */,
 			);
-			path = Classes;
+			name = NaverMap;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		56AAC75D1C9C4C2900B02759 /* Lib */ = {
+		6C76B9D766FA91944F6641A62271D07A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				56AAC75E1C9C4C2900B02759 /* ApiGateway */,
-				56AAC7631C9C4C2900B02759 /* NMapViewer */,
-			);
-			path = Lib;
-			sourceTree = "<group>";
-		};
-		56AAC75E1C9C4C2900B02759 /* ApiGateway */ = {
-			isa = PBXGroup;
-			children = (
-				56AAC75F1C9C4C2900B02759 /* Headers */,
-				56AAC7621C9C4C2900B02759 /* libApiGateway-MAC.a */,
-			);
-			path = ApiGateway;
-			sourceTree = "<group>";
-		};
-		56AAC75F1C9C4C2900B02759 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				56AAC7601C9C4C2900B02759 /* NMacManager.h */,
-				56AAC7611C9C4C2900B02759 /* NServiceMacManager.h */,
-			);
-			path = Headers;
-			sourceTree = "<group>";
-		};
-		56AAC7631C9C4C2900B02759 /* NMapViewer */ = {
-			isa = PBXGroup;
-			children = (
-				56AAC7641C9C4C2900B02759 /* Headers */,
-				56AAC77D1C9C4C2900B02759 /* libNMapViewer.a */,
-			);
-			path = NMapViewer;
-			sourceTree = "<group>";
-		};
-		56AAC7641C9C4C2900B02759 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				56AAC7651C9C4C2900B02759 /* MMapReverseGeocoder.h */,
-				56AAC7661C9C4C2900B02759 /* NMapCircleData.h */,
-				56AAC7671C9C4C2900B02759 /* NMapCirclePoint.h */,
-				56AAC7681C9C4C2900B02759 /* NMapCircleStyle.h */,
-				56AAC7691C9C4C2900B02759 /* NMapController.h */,
-				56AAC76A1C9C4C2900B02759 /* NMapError.h */,
-				56AAC76B1C9C4C2900B02759 /* NMapGeometry.h */,
-				56AAC76C1C9C4C2900B02759 /* NMapLocationManager.h */,
-				56AAC76D1C9C4C2900B02759 /* NMapMyLocationOverlay.h */,
-				56AAC76E1C9C4C2900B02759 /* NMapOverlay.h */,
-				56AAC76F1C9C4C2900B02759 /* NMapOverlayManager.h */,
-				56AAC7701C9C4C2900B02759 /* NMapPathData.h */,
-				56AAC7711C9C4C2900B02759 /* NMapPathDataOverlay.h */,
-				56AAC7721C9C4C2900B02759 /* NMapPathLineStyle.h */,
-				56AAC7731C9C4C2900B02759 /* NMapPathPoint.h */,
-				56AAC7741C9C4C2900B02759 /* NMapPathSegment.h */,
-				56AAC7751C9C4C2900B02759 /* NMapPlacemark.h */,
-				56AAC7761C9C4C2900B02759 /* NMapPOIdataOverlay.h */,
-				56AAC7771C9C4C2900B02759 /* NMapPOIitem.h */,
-				56AAC7781C9C4C2900B02759 /* NMapProjection.h */,
-				56AAC7791C9C4C2900B02759 /* NMapRadiusSettingOverlay.h */,
-				56AAC77A1C9C4C2900B02759 /* NMapView.h */,
-				56AAC77B1C9C4C2900B02759 /* NMapViewQuartz.h */,
-				56AAC77C1C9C4C2900B02759 /* NMapViewRotation.h */,
-			);
-			path = Headers;
-			sourceTree = "<group>";
-		};
-		56AAC7821C9C4C2900B02759 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				56AAC7F11C9C4C2900B02759 /* NMapViewerLib.app */,
+				7C8FD774172E00086F340037CDF7F277 /* NaverMap.bundle */,
+				B1729FEECA5B23900856C414C3B54249 /* Pods_NaverMap_Example.framework */,
+				3473640C1700CBC047593D2AE44DBFB1 /* Pods_NaverMap_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		56AAC7861C9C4C2900B02759 /* Resources */ = {
+		7912E06CEA22BE3FE90734FE1304576E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				56AAC7871C9C4C2900B02759 /* arr_icon.png */,
-				56AAC7881C9C4C2900B02759 /* arr_icon@2x.png */,
-				56AAC7891C9C4C2900B02759 /* arr_icon_over.png */,
-				56AAC78A1C9C4C2900B02759 /* arr_icon_over@2x.png */,
-				56AAC78B1C9C4C2900B02759 /* by_00.png */,
-				56AAC78C1C9C4C2900B02759 /* by_00_over.png */,
-				56AAC78D1C9C4C2900B02759 /* ic_angle.png */,
-				56AAC78E1C9C4C2900B02759 /* ic_angle@2x.png */,
-				56AAC78F1C9C4C2900B02759 /* Icon.png */,
-				56AAC7901C9C4C2900B02759 /* Icon@2x.png */,
-				56AAC7911C9C4C2900B02759 /* pin_ballon_arrow.png */,
-				56AAC7921C9C4C2900B02759 /* pin_ballon_arrow@2x.png */,
-				56AAC7931C9C4C2900B02759 /* pin_ballon_arrow_on.png */,
-				56AAC7941C9C4C2900B02759 /* pin_ballon_arrow_on@2x.png */,
-				56AAC7951C9C4C2900B02759 /* pin_ballon_bottom.png */,
-				56AAC7961C9C4C2900B02759 /* pin_ballon_bottom@2x.png */,
-				56AAC7971C9C4C2900B02759 /* pin_ballon_center.png */,
-				56AAC7981C9C4C2900B02759 /* pin_ballon_center@2x.png */,
-				56AAC7991C9C4C2900B02759 /* pin_ballon_left.png */,
-				56AAC79A1C9C4C2900B02759 /* pin_ballon_left@2x.png */,
-				56AAC79B1C9C4C2900B02759 /* pin_ballon_right.png */,
-				56AAC79C1C9C4C2900B02759 /* pin_ballon_right@2x.png */,
-				56AAC79D1C9C4C2900B02759 /* pubtrans_exact_default.png */,
-				56AAC79E1C9C4C2900B02759 /* pubtrans_exact_default@2x.png */,
-				56AAC79F1C9C4C2900B02759 /* pubtrans_ic_mylocation_off.png */,
-				56AAC7A01C9C4C2900B02759 /* pubtrans_ic_mylocation_off@2x.png */,
-				56AAC7A11C9C4C2900B02759 /* pubtrans_ic_mylocation_on.png */,
-				56AAC7A21C9C4C2900B02759 /* pubtrans_ic_mylocation_on@2x.png */,
-				56AAC7A31C9C4C2900B02759 /* start_icon.png */,
-				56AAC7A41C9C4C2900B02759 /* start_icon@2x.png */,
-				56AAC7A51C9C4C2900B02759 /* start_icon_over.png */,
-				56AAC7A61C9C4C2900B02759 /* start_icon_over@2x.png */,
+				FE79872CE7C2B602499459F279562B5C /* libApiGateway-MAC.a */,
+				AD0F79FC5146BDD6479D8741B173064D /* libNMapViewer.a */,
 			);
-			path = Resources;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B5CC33ECC5086FD035F3BFC4366430E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				552E4094B25ECEA2395CCC3FA73C55E0 /* NaverMap */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7B8E6B4B7DD8CA321B534CE50ED595CB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BE4856CA38D3E54FBDFC3650C8A158AB /* NaverMap-umbrella.h */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				5288F08EBEE98E94E39CEC0085F812DA /* Development Pods */,
+				7B5CC33ECC5086FD035F3BFC4366430E /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				7F5A30D3CB2FBE151F3A465CA8B27F5E /* Products */,
+				6C76B9D766FA91944F6641A62271D07A /* Products */,
 				85720A2868AD404343105E47A0A18674 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7F5A30D3CB2FBE151F3A465CA8B27F5E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B2AFADF7BDD4D45780655938D6DCC495 /* NaverMap.bundle */,
-				187F581018508726FABEB10FF0AF428C /* NaverMap.framework */,
-				2282F26F76668EF69C155355D1EAED49 /* Pods_NaverMap_Example.framework */,
-				5B58D9DF5DEE044C412CA3DC920F5A87 /* Pods_NaverMap_Tests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		85720A2868AD404343105E47A0A18674 /* Targets Support Files */ = {
@@ -457,28 +275,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8FC1B048280DEEA2AB6B1B8F31B07152 /* Support Files */ = {
+		9C40D6666C12BDB721A9F22A5CCF0D75 /* SDK */ = {
 			isa = PBXGroup;
 			children = (
-				D66FD5EBB8945C8B3FBDA146A34AB150 /* Info.plist */,
-				5F0286E3AC0828B0661AF7618DA44C08 /* NaverMap.modulemap */,
-				440783AA5798F1502CA408A5F560C8A8 /* NaverMap.xcconfig */,
-				BDEA8A72232C3A2281408C16A0D2AD20 /* NaverMap-dummy.m */,
-				BE46980E37CBEB475E5C49022C851990 /* NaverMap-prefix.pch */,
-				E5C08E7BD532E1220C46FAB4B6755DB2 /* NaverMap-umbrella.h */,
+				209D6427793C0C66880022AD78B94478 /* Resources */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/NaverMap";
-			sourceTree = "<group>";
-		};
-		AB915276D15D96CD3333F49C3EE7D5A7 /* NaverMap */ = {
-			isa = PBXGroup;
-			children = (
-				CD6943F06B391AF0DFC0D9CF3F3D82CA /* Pod */,
-				8FC1B048280DEEA2AB6B1B8F31B07152 /* Support Files */,
-			);
-			name = NaverMap;
-			path = ../..;
+			path = SDK;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -497,11 +299,10 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CD6943F06B391AF0DFC0D9CF3F3D82CA /* Pod */ = {
+		E6304E6E3455DACA3397BF6EE4A8F0C0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				56AAC7541C9C4C2900B02759 /* SDK */,
-				019EF3D6A16391ADBE4D716C262364A8 /* Classes */,
+				7B8E6B4B7DD8CA321B534CE50ED595CB /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -545,107 +346,32 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5D68706D76B4AA30DCFC631A1FD4F1BD /* Headers */ = {
+		20B6070E2B288763523EE8CF5F57D5F4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B9BDD058B20042DE20A457054C1B9AA /* Pods-NaverMap_Example-umbrella.h in Headers */,
+				2A00D0EB9F71C47757493226722B8864 /* Pods-NaverMap_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3C2C5164688B3D2110F3DC296D148FE /* Headers */ = {
+		9680B76278F6BC1FE9D5E745373C2783 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56AAC7C11C9C4C2900B02759 /* NMapPlacemark.h in Headers */,
-				56AAC7B11C9C4C2900B02759 /* MMapReverseGeocoder.h in Headers */,
-				56AAC7C21C9C4C2900B02759 /* NMapPOIdataOverlay.h in Headers */,
-				56AAC7BA1C9C4C2900B02759 /* NMapOverlay.h in Headers */,
-				56AAC7BB1C9C4C2900B02759 /* NMapOverlayManager.h in Headers */,
-				56AAC7C01C9C4C2900B02759 /* NMapPathSegment.h in Headers */,
-				56AAC7BE1C9C4C2900B02759 /* NMapPathLineStyle.h in Headers */,
-				56AAC7BF1C9C4C2900B02759 /* NMapPathPoint.h in Headers */,
-				56AAC7BD1C9C4C2900B02759 /* NMapPathDataOverlay.h in Headers */,
-				56AAC7B71C9C4C2900B02759 /* NMapGeometry.h in Headers */,
-				BB2584D70CFDCBD4FBBD272F0386DC95 /* NaverMap-umbrella.h in Headers */,
-				56AAC7A81C9C4C2900B02759 /* NMapViewController.h in Headers */,
-				56AAC7AA1C9C4C2900B02759 /* NMapViewerLibAppDelegate.h in Headers */,
-				56AAC7CD1C9C4C2900B02759 /* NMapViewerLib_Prefix.pch in Headers */,
-				56AAC7B91C9C4C2900B02759 /* NMapMyLocationOverlay.h in Headers */,
-				56AAC7AE1C9C4C2900B02759 /* NMacManager.h in Headers */,
-				56AAC7C61C9C4C2900B02759 /* NMapView.h in Headers */,
-				56AAC7AC1C9C4C2900B02759 /* NMapViewResource.h in Headers */,
-				56AAC7C71C9C4C2900B02759 /* NMapViewQuartz.h in Headers */,
-				56AAC7B41C9C4C2900B02759 /* NMapCircleStyle.h in Headers */,
-				56AAC7C31C9C4C2900B02759 /* NMapPOIitem.h in Headers */,
-				56AAC7B21C9C4C2900B02759 /* NMapCircleData.h in Headers */,
-				56AAC7B81C9C4C2900B02759 /* NMapLocationManager.h in Headers */,
-				56AAC7BC1C9C4C2900B02759 /* NMapPathData.h in Headers */,
-				56AAC7C51C9C4C2900B02759 /* NMapRadiusSettingOverlay.h in Headers */,
-				56AAC7C41C9C4C2900B02759 /* NMapProjection.h in Headers */,
-				56AAC7B31C9C4C2900B02759 /* NMapCirclePoint.h in Headers */,
-				56AAC7AF1C9C4C2900B02759 /* NServiceMacManager.h in Headers */,
-				56AAC7C81C9C4C2900B02759 /* NMapViewRotation.h in Headers */,
-				56AAC7B51C9C4C2900B02759 /* NMapController.h in Headers */,
-				56AAC7B61C9C4C2900B02759 /* NMapError.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FEC4E78D2E10F0D1EA5281F6DF3A9CC8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F892D4ACA19062F37ECBE135C93447C8 /* Pods-NaverMap_Tests-umbrella.h in Headers */,
+				0BCF9ACB6929FA87AAB36D2AFB17B241 /* Pods-NaverMap_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		17B9F159B43CED9871427EE04A9428C8 /* Pods-NaverMap_Tests */ = {
+		16E62B97CE36C9D951F78CB87BF23549 /* NaverMap-NaverMap */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A8C1DAC17DCC59CC97E1EB55AF8DD19 /* Build configuration list for PBXNativeTarget "Pods-NaverMap_Tests" */;
+			buildConfigurationList = BB3D25BC4C2DC2850276E057104DAF63 /* Build configuration list for PBXNativeTarget "NaverMap-NaverMap" */;
 			buildPhases = (
-				DE95BDCC2BE3E691B6089D6929C432E6 /* Sources */,
-				F0FBB309BF81E4EEEFAD02F94098EF58 /* Frameworks */,
-				FEC4E78D2E10F0D1EA5281F6DF3A9CC8 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B18722003417FF2C49F023627BE6F22B /* PBXTargetDependency */,
-			);
-			name = "Pods-NaverMap_Tests";
-			productName = "Pods-NaverMap_Tests";
-			productReference = 5B58D9DF5DEE044C412CA3DC920F5A87 /* Pods_NaverMap_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		22D859AE8ED8D015244E17288EC74837 /* NaverMap */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3B933F4F68EFF00BB6B7BFCEBC5D189F /* Build configuration list for PBXNativeTarget "NaverMap" */;
-			buildPhases = (
-				79B8392E5100B8A78AA67FFB052DAFEF /* Sources */,
-				415C642F98B5AB7DB1C1E9CE6197D5F8 /* Frameworks */,
-				28191463EAC55D4D0B3D5036E4CC45B2 /* Resources */,
-				A3C2C5164688B3D2110F3DC296D148FE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8A79BD55F18155487A545F27FA388A88 /* PBXTargetDependency */,
-			);
-			name = NaverMap;
-			productName = NaverMap;
-			productReference = 187F581018508726FABEB10FF0AF428C /* NaverMap.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		866482AB62865023FC8F81A752FE1150 /* NaverMap-NaverMap */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4AD60CC8118A65F4794EFFED7AF4C94C /* Build configuration list for PBXNativeTarget "NaverMap-NaverMap" */;
-			buildPhases = (
-				77C992A98F5AD25BDC744873F48D436A /* Sources */,
-				3E14348908B219CB80B41F450F078C3D /* Frameworks */,
-				FB512335505B3C78A3697E84B523DFE4 /* Resources */,
+				83FC5F7D94923FA00496F6C1243F8D75 /* Sources */,
+				0EBF7548BAD218B66471A16560FF1C33 /* Frameworks */,
+				5A6873AA4D5C9A429B4E548470A87D4E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -653,25 +379,43 @@
 			);
 			name = "NaverMap-NaverMap";
 			productName = "NaverMap-NaverMap";
-			productReference = B2AFADF7BDD4D45780655938D6DCC495 /* NaverMap.bundle */;
+			productReference = 7C8FD774172E00086F340037CDF7F277 /* NaverMap.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		DB6BFEC30CCED060977EFB9A592ECD2B /* Pods-NaverMap_Example */ = {
+		67313AC87CAC79EC6A8BCBA0373BD95F /* Pods-NaverMap_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A02EF69A446F84CB3B3A4B43A441C0B7 /* Build configuration list for PBXNativeTarget "Pods-NaverMap_Example" */;
+			buildConfigurationList = 9D3419A8F92B4E0D68F296CC8C420CAC /* Build configuration list for PBXNativeTarget "Pods-NaverMap_Example" */;
 			buildPhases = (
-				A0BA19725C1CF480E0BCB381526BB05B /* Sources */,
-				4684D29FC65BCC646ED978BCABF6BC76 /* Frameworks */,
-				5D68706D76B4AA30DCFC631A1FD4F1BD /* Headers */,
+				33D847BECF87E251D7DA0ABF17DBDE05 /* Sources */,
+				93FAE441E2B5D657CF8FFBFAF72CC1E4 /* Frameworks */,
+				9680B76278F6BC1FE9D5E745373C2783 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9A82DF12A4996754409426E185ECFFFD /* PBXTargetDependency */,
+				A58D002951A2CE880A90EB301A627DFF /* PBXTargetDependency */,
 			);
 			name = "Pods-NaverMap_Example";
 			productName = "Pods-NaverMap_Example";
-			productReference = 2282F26F76668EF69C155355D1EAED49 /* Pods_NaverMap_Example.framework */;
+			productReference = B1729FEECA5B23900856C414C3B54249 /* Pods_NaverMap_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6FF74ABCF7B239F86DB0B96BE216DDA1 /* Pods-NaverMap_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA7BFD38F6BACA8967FB5C0D7E106076 /* Build configuration list for PBXNativeTarget "Pods-NaverMap_Tests" */;
+			buildPhases = (
+				52D51C708D00F13D1FC2B2CED7A39E1B /* Sources */,
+				F4D2A53A9D1FDD9F69556B43A591F7BB /* Frameworks */,
+				20B6070E2B288763523EE8CF5F57D5F4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				112ED5C48A2C703BBEF580BC7D6D7132 /* PBXTargetDependency */,
+			);
+			name = "Pods-NaverMap_Tests";
+			productName = "Pods-NaverMap_Tests";
+			productReference = 3473640C1700CBC047593D2AE44DBFB1 /* Pods_NaverMap_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -691,144 +435,97 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7F5A30D3CB2FBE151F3A465CA8B27F5E /* Products */;
+			productRefGroup = 6C76B9D766FA91944F6641A62271D07A /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 56AAC7821C9C4C2900B02759 /* Products */;
-					ProjectRef = 56AAC7811C9C4C2900B02759 /* NMapViewerLib.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				22D859AE8ED8D015244E17288EC74837 /* NaverMap */,
-				866482AB62865023FC8F81A752FE1150 /* NaverMap-NaverMap */,
-				DB6BFEC30CCED060977EFB9A592ECD2B /* Pods-NaverMap_Example */,
-				17B9F159B43CED9871427EE04A9428C8 /* Pods-NaverMap_Tests */,
+				16E62B97CE36C9D951F78CB87BF23549 /* NaverMap-NaverMap */,
+				67313AC87CAC79EC6A8BCBA0373BD95F /* Pods-NaverMap_Example */,
+				6FF74ABCF7B239F86DB0B96BE216DDA1 /* Pods-NaverMap_Tests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		56AAC7F11C9C4C2900B02759 /* NMapViewerLib.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = NMapViewerLib.app;
-			remoteRef = 56AAC7F01C9C4C2900B02759 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
-		28191463EAC55D4D0B3D5036E4CC45B2 /* Resources */ = {
+		5A6873AA4D5C9A429B4E548470A87D4E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56AAC7CF1C9C4C2900B02759 /* arr_icon.png in Resources */,
-				56AAC7DD1C9C4C2900B02759 /* pin_ballon_bottom.png in Resources */,
-				56AAC7EA1C9C4C2900B02759 /* pubtrans_ic_mylocation_on@2x.png in Resources */,
-				56AAC7D21C9C4C2900B02759 /* arr_icon_over@2x.png in Resources */,
-				56AAC7D31C9C4C2900B02759 /* by_00.png in Resources */,
-				56AAC7CC1C9C4C2900B02759 /* NMapViewerLib-Info.plist in Resources */,
-				56AAC7E61C9C4C2900B02759 /* pubtrans_exact_default@2x.png in Resources */,
-				56AAC7D41C9C4C2900B02759 /* by_00_over.png in Resources */,
-				56AAC7A71C9C4C2900B02759 /* .gitignore in Resources */,
-				BE3ED2A43D3A7D31AF6DC608F35860D7 /* NaverMap.bundle in Resources */,
-				56AAC7DB1C9C4C2900B02759 /* pin_ballon_arrow_on.png in Resources */,
-				56AAC7D71C9C4C2900B02759 /* Icon.png in Resources */,
-				56AAC7EE1C9C4C2900B02759 /* start_icon_over@2x.png in Resources */,
-				56AAC7E11C9C4C2900B02759 /* pin_ballon_left.png in Resources */,
-				56AAC7E81C9C4C2900B02759 /* pubtrans_ic_mylocation_off@2x.png in Resources */,
-				56AAC7E21C9C4C2900B02759 /* pin_ballon_left@2x.png in Resources */,
-				56AAC7D11C9C4C2900B02759 /* arr_icon_over.png in Resources */,
-				56AAC7D81C9C4C2900B02759 /* Icon@2x.png in Resources */,
-				56AAC7CB1C9C4C2900B02759 /* MainWindow.xib in Resources */,
-				56AAC7D91C9C4C2900B02759 /* pin_ballon_arrow.png in Resources */,
-				56AAC7DC1C9C4C2900B02759 /* pin_ballon_arrow_on@2x.png in Resources */,
-				56AAC7EB1C9C4C2900B02759 /* start_icon.png in Resources */,
-				56AAC7E31C9C4C2900B02759 /* pin_ballon_right.png in Resources */,
-				56AAC7DA1C9C4C2900B02759 /* pin_ballon_arrow@2x.png in Resources */,
-				56AAC7DF1C9C4C2900B02759 /* pin_ballon_center.png in Resources */,
-				56AAC7D51C9C4C2900B02759 /* ic_angle.png in Resources */,
-				56AAC7D61C9C4C2900B02759 /* ic_angle@2x.png in Resources */,
-				56AAC7E51C9C4C2900B02759 /* pubtrans_exact_default.png in Resources */,
-				56AAC7E91C9C4C2900B02759 /* pubtrans_ic_mylocation_on.png in Resources */,
-				56AAC7D01C9C4C2900B02759 /* arr_icon@2x.png in Resources */,
-				56AAC7DE1C9C4C2900B02759 /* pin_ballon_bottom@2x.png in Resources */,
-				56AAC7E01C9C4C2900B02759 /* pin_ballon_center@2x.png in Resources */,
-				56AAC7E71C9C4C2900B02759 /* pubtrans_ic_mylocation_off.png in Resources */,
-				56AAC7EC1C9C4C2900B02759 /* start_icon@2x.png in Resources */,
-				56AAC7E41C9C4C2900B02759 /* pin_ballon_right@2x.png in Resources */,
-				56AAC7ED1C9C4C2900B02759 /* start_icon_over.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB512335505B3C78A3697E84B523DFE4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				4C9100467357F60365AACE4B0C3C01F9 /* arr_icon.png in Resources */,
+				83BAB5FCD67C3873163E3FBD76F7B7B2 /* arr_icon@2x.png in Resources */,
+				349E4AFB22FC13FDA008569357BA21C5 /* arr_icon_over.png in Resources */,
+				BCC80ECCBAD3339A5E6F644953E52B7B /* arr_icon_over@2x.png in Resources */,
+				37E36FF91BF85DBDF15FDB612520DCA2 /* by_00.png in Resources */,
+				7E6E6DC5834F8D1818FF0C2B039639DD /* by_00_over.png in Resources */,
+				3EE185BB29B3F0244C61FE0FA0E52672 /* ic_angle.png in Resources */,
+				0039E7655EF16897394CBADB13C3B1F7 /* ic_angle@2x.png in Resources */,
+				4F9A4A21EDF74BA5363F2F8BC2077DBF /* Icon.png in Resources */,
+				281BBD684C8DF8033956073BA110234C /* Icon@2x.png in Resources */,
+				6C58DF4B5616E4F4F102B062140618EC /* pin_ballon_arrow.png in Resources */,
+				CB700CF49C60445242D8BF531BBD575F /* pin_ballon_arrow@2x.png in Resources */,
+				DDE880D00BE607163AA885A1F1C9F421 /* pin_ballon_arrow_on.png in Resources */,
+				DA4C47BD9DDDD799E0CEC631BAB4F5EA /* pin_ballon_arrow_on@2x.png in Resources */,
+				38952791F797388ED30C9568244FEFDC /* pin_ballon_bottom.png in Resources */,
+				E05C3C0C1F5CD404218C8909145BA1B9 /* pin_ballon_bottom@2x.png in Resources */,
+				D60E4F45DA7817DC56747CCA8220C7DC /* pin_ballon_center.png in Resources */,
+				D842ABB05EF59F92C731D60022D71A72 /* pin_ballon_center@2x.png in Resources */,
+				A64C8E5BA59341BA134508C785D0355B /* pin_ballon_left.png in Resources */,
+				918CF1CAD3AEB9A4AA044A78E9792C2D /* pin_ballon_left@2x.png in Resources */,
+				F30EF873979E1F04A5EAFDE6FF4A7EC0 /* pin_ballon_right.png in Resources */,
+				8893018B6083B6DDD9022B8C2CCC7CA3 /* pin_ballon_right@2x.png in Resources */,
+				875BA330FAC48A5748564E0F130D4A5B /* pubtrans_exact_default.png in Resources */,
+				34B306B02B08AB2A9A90A22266A0AD3F /* pubtrans_exact_default@2x.png in Resources */,
+				0DB2E9B45D8AF49879722A036DF383CC /* pubtrans_ic_mylocation_off.png in Resources */,
+				CB219B0EBF355CA5E8ABE956BD7EDCE0 /* pubtrans_ic_mylocation_off@2x.png in Resources */,
+				369BE99C63F4F4F3E238847EA36E926B /* pubtrans_ic_mylocation_on.png in Resources */,
+				E8A8E7E86E61A72E0DB640D37DE7E02E /* pubtrans_ic_mylocation_on@2x.png in Resources */,
+				3AE734A58A4C8CD2F5311AC6CCF16507 /* start_icon.png in Resources */,
+				4D6CF4126EE4352815AA7CC25AC6E339 /* start_icon@2x.png in Resources */,
+				C1DE0C069761D560BAA0230B0D226A96 /* start_icon_over.png in Resources */,
+				C4E3197BE1725036C57A8DF75CEF1C06 /* start_icon_over@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		77C992A98F5AD25BDC744873F48D436A /* Sources */ = {
+		33D847BECF87E251D7DA0ABF17DBDE05 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFA892D196704A2BACC7FA142FAA8A93 /* Pods-NaverMap_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79B8392E5100B8A78AA67FFB052DAFEF /* Sources */ = {
+		52D51C708D00F13D1FC2B2CED7A39E1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56AAC7A91C9C4C2900B02759 /* NMapViewController.m in Sources */,
-				56AAC7AD1C9C4C2900B02759 /* NMapViewResource.m in Sources */,
-				6A4A135B35EA795DAE6A6922540967A6 /* NaverMap-dummy.m in Sources */,
-				56AAC7CE1C9C4C2900B02759 /* README.md in Sources */,
-				56AAC7AB1C9C4C2900B02759 /* NMapViewerLibAppDelegate.m in Sources */,
-				56AAC7CA1C9C4C2900B02759 /* main.m in Sources */,
+				37FDB55AEFEDD0265C1ABE4D8CEC640A /* Pods-NaverMap_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0BA19725C1CF480E0BCB381526BB05B /* Sources */ = {
+		83FC5F7D94923FA00496F6C1243F8D75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49B6076A13A5A98690C89C5FF8146411 /* Pods-NaverMap_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE95BDCC2BE3E691B6089D6929C432E6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				14B261977FFC75C111AE6CD759A537F7 /* Pods-NaverMap_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8A79BD55F18155487A545F27FA388A88 /* PBXTargetDependency */ = {
+		112ED5C48A2C703BBEF580BC7D6D7132 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "NaverMap-NaverMap";
-			target = 866482AB62865023FC8F81A752FE1150 /* NaverMap-NaverMap */;
-			targetProxy = DB525501216DE811AAE2B5873F360DD8 /* PBXContainerItemProxy */;
+			target = 16E62B97CE36C9D951F78CB87BF23549 /* NaverMap-NaverMap */;
+			targetProxy = BBD3CAFB804979D41E1FB39108A284D4 /* PBXContainerItemProxy */;
 		};
-		9A82DF12A4996754409426E185ECFFFD /* PBXTargetDependency */ = {
+		A58D002951A2CE880A90EB301A627DFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = NaverMap;
-			target = 22D859AE8ED8D015244E17288EC74837 /* NaverMap */;
-			targetProxy = 70E01A67B5A00C45A6C7F8E850477D01 /* PBXContainerItemProxy */;
-		};
-		B18722003417FF2C49F023627BE6F22B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = NaverMap;
-			target = 22D859AE8ED8D015244E17288EC74837 /* NaverMap */;
-			targetProxy = 3E52BF9D37E8BB5BCB7FE2FF72F2BAAF /* PBXContainerItemProxy */;
+			name = "NaverMap-NaverMap";
+			target = 16E62B97CE36C9D951F78CB87BF23549 /* NaverMap-NaverMap */;
+			targetProxy = 6B26EB6FB301D758E558BEB10671F5C9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -866,36 +563,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		03D20F04FB4F16EE9310B2236CC21BB7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0A462DCEB6C34AE0DD27A3BD35246B4 /* Pods-NaverMap_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NaverMap_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NaverMap_Example/Pods-NaverMap_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_NaverMap_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -936,76 +603,7 @@
 			};
 			name = Debug;
 		};
-		23CF0CD045E9BC43C4F78CA9152839EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A12AC26C09A6D032CFC3C472E0A79E2C /* Pods-NaverMap_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NaverMap_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NaverMap_Tests/Pods-NaverMap_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_NaverMap_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6DBF08F71CFF1FAA417A0FBB5CED0E73 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 440783AA5798F1502CA408A5F560C8A8 /* NaverMap.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/NaverMap/NaverMap-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NaverMap/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NaverMap/NaverMap.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = NaverMap;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8CB9D035166552A68C5441363E22B258 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 440783AA5798F1502CA408A5F560C8A8 /* NaverMap.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = NaverMap;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		A1BBE7930AB98941EA315025E4C403E2 /* Release */ = {
+		0F651B0DB2EF13A2DF156A5E58407D04 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B8E2F6B4C17F4BE32B5E20BE1C90918A /* Pods-NaverMap_Example.release.xcconfig */;
 			buildSettings = {
@@ -1035,9 +633,49 @@
 			};
 			name = Release;
 		};
-		A774165D051C77DFBEBA9652F0524E7D /* Release */ = {
+		37A3CE2DF2F1E71A436DA53CB831B88E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 440783AA5798F1502CA408A5F560C8A8 /* NaverMap.xcconfig */;
+			baseConfigurationReference = A12AC26C09A6D032CFC3C472E0A79E2C /* Pods-NaverMap_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NaverMap_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NaverMap_Tests/Pods-NaverMap_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_NaverMap_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6309562E9D5FEFB178FB0C1BCD2D2B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = NaverMap;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B1FE626DC9909DD165455E5A016D6E7F /* Release */ = {
+			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = NaverMap;
@@ -1047,9 +685,9 @@
 			};
 			name = Release;
 		};
-		A8AA349F1DDF699A28DCAE3DC0A41EBB /* Debug */ = {
+		B98D1B1A78DAC36103CE497D8C97CFD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 440783AA5798F1502CA408A5F560C8A8 /* NaverMap.xcconfig */;
+			baseConfigurationReference = F0A462DCEB6C34AE0DD27A3BD35246B4 /* Pods-NaverMap_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1058,14 +696,17 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/NaverMap/NaverMap-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NaverMap/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-NaverMap_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NaverMap/NaverMap.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NaverMap_Example/Pods-NaverMap_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = NaverMap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_NaverMap_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1074,7 +715,7 @@
 			};
 			name = Debug;
 		};
-		FBE2C91CCA42147BABA5DB2B1592BC6E /* Debug */ = {
+		F7BCC2C8170C219CC352CC655598973D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9837879038D6C1C68B9EF88B8F3BE360 /* Pods-NaverMap_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -1116,38 +757,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B933F4F68EFF00BB6B7BFCEBC5D189F /* Build configuration list for PBXNativeTarget "NaverMap" */ = {
+		9D3419A8F92B4E0D68F296CC8C420CAC /* Build configuration list for PBXNativeTarget "Pods-NaverMap_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A8AA349F1DDF699A28DCAE3DC0A41EBB /* Debug */,
-				6DBF08F71CFF1FAA417A0FBB5CED0E73 /* Release */,
+				B98D1B1A78DAC36103CE497D8C97CFD5 /* Debug */,
+				0F651B0DB2EF13A2DF156A5E58407D04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A8C1DAC17DCC59CC97E1EB55AF8DD19 /* Build configuration list for PBXNativeTarget "Pods-NaverMap_Tests" */ = {
+		BB3D25BC4C2DC2850276E057104DAF63 /* Build configuration list for PBXNativeTarget "NaverMap-NaverMap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FBE2C91CCA42147BABA5DB2B1592BC6E /* Debug */,
-				23CF0CD045E9BC43C4F78CA9152839EB /* Release */,
+				6309562E9D5FEFB178FB0C1BCD2D2B69 /* Debug */,
+				B1FE626DC9909DD165455E5A016D6E7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AD60CC8118A65F4794EFFED7AF4C94C /* Build configuration list for PBXNativeTarget "NaverMap-NaverMap" */ = {
+		CA7BFD38F6BACA8967FB5C0D7E106076 /* Build configuration list for PBXNativeTarget "Pods-NaverMap_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8CB9D035166552A68C5441363E22B258 /* Debug */,
-				A774165D051C77DFBEBA9652F0524E7D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A02EF69A446F84CB3B3A4B43A441C0B7 /* Build configuration list for PBXNativeTarget "Pods-NaverMap_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				03D20F04FB4F16EE9310B2236CC21BB7 /* Debug */,
-				A1BBE7930AB98941EA315025E4C403E2 /* Release */,
+				F7BCC2C8170C219CC352CC655598973D /* Debug */,
+				37A3CE2DF2F1E71A436DA53CB831B88E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

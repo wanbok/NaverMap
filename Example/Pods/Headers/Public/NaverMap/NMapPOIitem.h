@@ -1,0 +1,1 @@
+../../../../../Pod/SDK/Lib/NMapViewer/Headers/NMapPOIitem.h

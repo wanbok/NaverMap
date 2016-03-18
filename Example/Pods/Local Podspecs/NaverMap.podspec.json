@@ -1,25 +1,43 @@
 {
   "name": "NaverMap",
   "version": "0.1.0",
-  "summary": "A short description of NaverMap.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/NaverMap",
+  "summary": "A CocoaPods wrapper for naver/navermap-ios-api.",
+  "description": "A CocoaPods wrapper for navermap-ios-api.\nIt's not an offical CocoaPods.",
+  "homepage": "https://github.com/wanbok/NaverMap",
   "license": "MIT",
   "authors": {
     "Wanbok Choi": "choi@wanbok.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/NaverMap.git",
+    "git": "https://github.com/wanbok/NaverMap.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://fb.me/wanbok",
   "platforms": {
     "ios": "7.0"
   },
   "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
   "resource_bundles": {
     "NaverMap": [
-      "Pod/Assets/*.png"
+      "Pod/SDK/Resources/*.png"
     ]
-  }
+  },
+  "source_files": "Pod/Classes/**/*.h",
+  "public_header_files": "Pod/SDK/Lib/**/Headers/*.h",
+  "module_map": "Pod/Support Files/NaverMap.modulemap",
+  "vendored_libraries": [
+    "Pod/SDK/Lib/ApiGateway/libApiGateway-MAC.a",
+    "Pod/SDK/Lib/NMapViewer/libNMapViewer.a"
+  ],
+  "frameworks": [
+    "UIKit",
+    "CoreGraphics",
+    "QuartzCore",
+    "CoreLocation",
+    "SystemConfiguration"
+  ],
+  "libraries": [
+    "sqlite3",
+    "xml2"
+  ]
 }

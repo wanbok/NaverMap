@@ -1,6 +1,0 @@
-framework module NaverMap {
-  umbrella header "NaverMap-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NaverMap: a1be6b60ca2293747fe811f0640c9fa25bb3a3fc
+  NaverMap: fa7e021230b006cc980be51056c9fad0ba25d14b
 
 COCOAPODS: 0.39.0

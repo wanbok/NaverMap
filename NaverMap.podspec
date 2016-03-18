@@ -17,8 +17,9 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
   s.resource_bundles = { 'NaverMap' => ['Pod/SDK/Resources/*.png'] }
-  s.source_files = 'Pod/SDK/Lib/**/*.h'
+  s.source_files = 'Pod/Classes/**/*.h'
   s.public_header_files = 'Pod/SDK/Lib/**/Headers/*.h'
+  s.module_map = 'Pod/Support Files/NaverMap.modulemap'
   s.vendored_libraries = 'Pod/SDK/Lib/ApiGateway/libApiGateway-MAC.a', 'Pod/SDK/Lib/NMapViewer/libNMapViewer.a'
   s.frameworks = 'UIKit', 'CoreGraphics', 'QuartzCore', 'CoreLocation', 'SystemConfiguration'
   s.library = 'sqlite3', 'xml2'

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3CFC2DF6BFE65CEB2FF346F57B7F42D1963D1378",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3CFC2DF6BFE65CEB2FF346F57B7F42D1963D1378" : 0,
+    "457D04F182DEAA0E82610137E49E092125367FB4" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FBBD9C7C-0484-4FAA-9A9F-5A5CE44B7D7E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3CFC2DF6BFE65CEB2FF346F57B7F42D1963D1378" : "NaverMap\/",
+    "457D04F182DEAA0E82610137E49E092125367FB4" : "NaverMap\/Pod\/SDK\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NaverMap",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/NaverMap.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:wanbok\/NaverMap.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3CFC2DF6BFE65CEB2FF346F57B7F42D1963D1378"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/naver\/navermap-ios-api.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "457D04F182DEAA0E82610137E49E092125367FB4"
+    }
+  ]
+}
