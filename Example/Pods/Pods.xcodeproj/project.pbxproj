@@ -11,10 +11,81 @@
 		14B261977FFC75C111AE6CD759A537F7 /* Pods-NaverMap_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC24C406AC26625933FFFB60C3B76E93 /* Pods-NaverMap_Tests-dummy.m */; };
 		1B9BDD058B20042DE20A457054C1B9AA /* Pods-NaverMap_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC21C7371098637277E0D1282F5E54E /* Pods-NaverMap_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49B6076A13A5A98690C89C5FF8146411 /* Pods-NaverMap_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE6CC7DF67879B439951855AC6E01D5 /* Pods-NaverMap_Example-dummy.m */; };
+		56AAC7A71C9C4C2900B02759 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7551C9C4C2900B02759 /* .gitignore */; };
+		56AAC7A81C9C4C2900B02759 /* NMapViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7571C9C4C2900B02759 /* NMapViewController.h */; };
+		56AAC7A91C9C4C2900B02759 /* NMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC7581C9C4C2900B02759 /* NMapViewController.m */; };
+		56AAC7AA1C9C4C2900B02759 /* NMapViewerLibAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7591C9C4C2900B02759 /* NMapViewerLibAppDelegate.h */; };
+		56AAC7AB1C9C4C2900B02759 /* NMapViewerLibAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC75A1C9C4C2900B02759 /* NMapViewerLibAppDelegate.m */; };
+		56AAC7AC1C9C4C2900B02759 /* NMapViewResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC75B1C9C4C2900B02759 /* NMapViewResource.h */; };
+		56AAC7AD1C9C4C2900B02759 /* NMapViewResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC75C1C9C4C2900B02759 /* NMapViewResource.m */; };
+		56AAC7AE1C9C4C2900B02759 /* NMacManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7601C9C4C2900B02759 /* NMacManager.h */; };
+		56AAC7AF1C9C4C2900B02759 /* NServiceMacManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7611C9C4C2900B02759 /* NServiceMacManager.h */; };
+		56AAC7B01C9C4C2900B02759 /* libApiGateway-MAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AAC7621C9C4C2900B02759 /* libApiGateway-MAC.a */; };
+		56AAC7B11C9C4C2900B02759 /* MMapReverseGeocoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7651C9C4C2900B02759 /* MMapReverseGeocoder.h */; };
+		56AAC7B21C9C4C2900B02759 /* NMapCircleData.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7661C9C4C2900B02759 /* NMapCircleData.h */; };
+		56AAC7B31C9C4C2900B02759 /* NMapCirclePoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7671C9C4C2900B02759 /* NMapCirclePoint.h */; };
+		56AAC7B41C9C4C2900B02759 /* NMapCircleStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7681C9C4C2900B02759 /* NMapCircleStyle.h */; };
+		56AAC7B51C9C4C2900B02759 /* NMapController.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7691C9C4C2900B02759 /* NMapController.h */; };
+		56AAC7B61C9C4C2900B02759 /* NMapError.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC76A1C9C4C2900B02759 /* NMapError.h */; };
+		56AAC7B71C9C4C2900B02759 /* NMapGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC76B1C9C4C2900B02759 /* NMapGeometry.h */; };
+		56AAC7B81C9C4C2900B02759 /* NMapLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC76C1C9C4C2900B02759 /* NMapLocationManager.h */; };
+		56AAC7B91C9C4C2900B02759 /* NMapMyLocationOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC76D1C9C4C2900B02759 /* NMapMyLocationOverlay.h */; };
+		56AAC7BA1C9C4C2900B02759 /* NMapOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC76E1C9C4C2900B02759 /* NMapOverlay.h */; };
+		56AAC7BB1C9C4C2900B02759 /* NMapOverlayManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC76F1C9C4C2900B02759 /* NMapOverlayManager.h */; };
+		56AAC7BC1C9C4C2900B02759 /* NMapPathData.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7701C9C4C2900B02759 /* NMapPathData.h */; };
+		56AAC7BD1C9C4C2900B02759 /* NMapPathDataOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7711C9C4C2900B02759 /* NMapPathDataOverlay.h */; };
+		56AAC7BE1C9C4C2900B02759 /* NMapPathLineStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7721C9C4C2900B02759 /* NMapPathLineStyle.h */; };
+		56AAC7BF1C9C4C2900B02759 /* NMapPathPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7731C9C4C2900B02759 /* NMapPathPoint.h */; };
+		56AAC7C01C9C4C2900B02759 /* NMapPathSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7741C9C4C2900B02759 /* NMapPathSegment.h */; };
+		56AAC7C11C9C4C2900B02759 /* NMapPlacemark.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7751C9C4C2900B02759 /* NMapPlacemark.h */; };
+		56AAC7C21C9C4C2900B02759 /* NMapPOIdataOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7761C9C4C2900B02759 /* NMapPOIdataOverlay.h */; };
+		56AAC7C31C9C4C2900B02759 /* NMapPOIitem.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7771C9C4C2900B02759 /* NMapPOIitem.h */; };
+		56AAC7C41C9C4C2900B02759 /* NMapProjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7781C9C4C2900B02759 /* NMapProjection.h */; };
+		56AAC7C51C9C4C2900B02759 /* NMapRadiusSettingOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7791C9C4C2900B02759 /* NMapRadiusSettingOverlay.h */; };
+		56AAC7C61C9C4C2900B02759 /* NMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC77A1C9C4C2900B02759 /* NMapView.h */; };
+		56AAC7C71C9C4C2900B02759 /* NMapViewQuartz.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC77B1C9C4C2900B02759 /* NMapViewQuartz.h */; };
+		56AAC7C81C9C4C2900B02759 /* NMapViewRotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC77C1C9C4C2900B02759 /* NMapViewRotation.h */; };
+		56AAC7C91C9C4C2900B02759 /* libNMapViewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AAC77D1C9C4C2900B02759 /* libNMapViewer.a */; };
+		56AAC7CA1C9C4C2900B02759 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC77E1C9C4C2900B02759 /* main.m */; };
+		56AAC7CB1C9C4C2900B02759 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC77F1C9C4C2900B02759 /* MainWindow.xib */; };
+		56AAC7CC1C9C4C2900B02759 /* NMapViewerLib-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7801C9C4C2900B02759 /* NMapViewerLib-Info.plist */; };
+		56AAC7CD1C9C4C2900B02759 /* NMapViewerLib_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 56AAC7841C9C4C2900B02759 /* NMapViewerLib_Prefix.pch */; };
+		56AAC7CE1C9C4C2900B02759 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 56AAC7851C9C4C2900B02759 /* README.md */; };
+		56AAC7CF1C9C4C2900B02759 /* arr_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7871C9C4C2900B02759 /* arr_icon.png */; };
+		56AAC7D01C9C4C2900B02759 /* arr_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7881C9C4C2900B02759 /* arr_icon@2x.png */; };
+		56AAC7D11C9C4C2900B02759 /* arr_icon_over.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7891C9C4C2900B02759 /* arr_icon_over.png */; };
+		56AAC7D21C9C4C2900B02759 /* arr_icon_over@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC78A1C9C4C2900B02759 /* arr_icon_over@2x.png */; };
+		56AAC7D31C9C4C2900B02759 /* by_00.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC78B1C9C4C2900B02759 /* by_00.png */; };
+		56AAC7D41C9C4C2900B02759 /* by_00_over.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC78C1C9C4C2900B02759 /* by_00_over.png */; };
+		56AAC7D51C9C4C2900B02759 /* ic_angle.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC78D1C9C4C2900B02759 /* ic_angle.png */; };
+		56AAC7D61C9C4C2900B02759 /* ic_angle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC78E1C9C4C2900B02759 /* ic_angle@2x.png */; };
+		56AAC7D71C9C4C2900B02759 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC78F1C9C4C2900B02759 /* Icon.png */; };
+		56AAC7D81C9C4C2900B02759 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7901C9C4C2900B02759 /* Icon@2x.png */; };
+		56AAC7D91C9C4C2900B02759 /* pin_ballon_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7911C9C4C2900B02759 /* pin_ballon_arrow.png */; };
+		56AAC7DA1C9C4C2900B02759 /* pin_ballon_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7921C9C4C2900B02759 /* pin_ballon_arrow@2x.png */; };
+		56AAC7DB1C9C4C2900B02759 /* pin_ballon_arrow_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7931C9C4C2900B02759 /* pin_ballon_arrow_on.png */; };
+		56AAC7DC1C9C4C2900B02759 /* pin_ballon_arrow_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7941C9C4C2900B02759 /* pin_ballon_arrow_on@2x.png */; };
+		56AAC7DD1C9C4C2900B02759 /* pin_ballon_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7951C9C4C2900B02759 /* pin_ballon_bottom.png */; };
+		56AAC7DE1C9C4C2900B02759 /* pin_ballon_bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7961C9C4C2900B02759 /* pin_ballon_bottom@2x.png */; };
+		56AAC7DF1C9C4C2900B02759 /* pin_ballon_center.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7971C9C4C2900B02759 /* pin_ballon_center.png */; };
+		56AAC7E01C9C4C2900B02759 /* pin_ballon_center@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7981C9C4C2900B02759 /* pin_ballon_center@2x.png */; };
+		56AAC7E11C9C4C2900B02759 /* pin_ballon_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7991C9C4C2900B02759 /* pin_ballon_left.png */; };
+		56AAC7E21C9C4C2900B02759 /* pin_ballon_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC79A1C9C4C2900B02759 /* pin_ballon_left@2x.png */; };
+		56AAC7E31C9C4C2900B02759 /* pin_ballon_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC79B1C9C4C2900B02759 /* pin_ballon_right.png */; };
+		56AAC7E41C9C4C2900B02759 /* pin_ballon_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC79C1C9C4C2900B02759 /* pin_ballon_right@2x.png */; };
+		56AAC7E51C9C4C2900B02759 /* pubtrans_exact_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC79D1C9C4C2900B02759 /* pubtrans_exact_default.png */; };
+		56AAC7E61C9C4C2900B02759 /* pubtrans_exact_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC79E1C9C4C2900B02759 /* pubtrans_exact_default@2x.png */; };
+		56AAC7E71C9C4C2900B02759 /* pubtrans_ic_mylocation_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC79F1C9C4C2900B02759 /* pubtrans_ic_mylocation_off.png */; };
+		56AAC7E81C9C4C2900B02759 /* pubtrans_ic_mylocation_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7A01C9C4C2900B02759 /* pubtrans_ic_mylocation_off@2x.png */; };
+		56AAC7E91C9C4C2900B02759 /* pubtrans_ic_mylocation_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7A11C9C4C2900B02759 /* pubtrans_ic_mylocation_on.png */; };
+		56AAC7EA1C9C4C2900B02759 /* pubtrans_ic_mylocation_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7A21C9C4C2900B02759 /* pubtrans_ic_mylocation_on@2x.png */; };
+		56AAC7EB1C9C4C2900B02759 /* start_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7A31C9C4C2900B02759 /* start_icon.png */; };
+		56AAC7EC1C9C4C2900B02759 /* start_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7A41C9C4C2900B02759 /* start_icon@2x.png */; };
+		56AAC7ED1C9C4C2900B02759 /* start_icon_over.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7A51C9C4C2900B02759 /* start_icon_over.png */; };
+		56AAC7EE1C9C4C2900B02759 /* start_icon_over@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC7A61C9C4C2900B02759 /* start_icon_over@2x.png */; };
 		66CD48C94184F9D6B67D34BBE6B0430B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		6A4A135B35EA795DAE6A6922540967A6 /* NaverMap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEA8A72232C3A2281408C16A0D2AD20 /* NaverMap-dummy.m */; };
 		9BAEBED718B104BF225C70529C1C6828 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		B43B5DEED2C29AF8AABFF9941BCBB270 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 837D2202044C1AD9AC753A3986A390EF /* ReplaceMe.m */; };
 		BB2584D70CFDCBD4FBBD272F0386DC95 /* NaverMap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C08E7BD532E1220C46FAB4B6755DB2 /* NaverMap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE3ED2A43D3A7D31AF6DC608F35860D7 /* NaverMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B2AFADF7BDD4D45780655938D6DCC495 /* NaverMap.bundle */; };
 		F892D4ACA19062F37ECBE135C93447C8 /* Pods-NaverMap_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 964B90DC3C5098F0A585768407A9636D /* Pods-NaverMap_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,6 +98,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 22D859AE8ED8D015244E17288EC74837;
 			remoteInfo = NaverMap;
+		};
+		56AAC7F01C9C4C2900B02759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56AAC7811C9C4C2900B02759 /* NMapViewerLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D6058910D05DD3D006BFB54;
+			remoteInfo = NMapViewerLib;
 		};
 		70E01A67B5A00C45A6C7F8E850477D01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -50,12 +128,84 @@
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		440783AA5798F1502CA408A5F560C8A8 /* NaverMap.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NaverMap.xcconfig; sourceTree = "<group>"; };
 		4AE91135F334044405FCEF611BD4340D /* Pods-NaverMap_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaverMap_Example-frameworks.sh"; sourceTree = "<group>"; };
+		56AAC7551C9C4C2900B02759 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		56AAC7571C9C4C2900B02759 /* NMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapViewController.h; sourceTree = "<group>"; };
+		56AAC7581C9C4C2900B02759 /* NMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMapViewController.m; sourceTree = "<group>"; };
+		56AAC7591C9C4C2900B02759 /* NMapViewerLibAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapViewerLibAppDelegate.h; sourceTree = "<group>"; };
+		56AAC75A1C9C4C2900B02759 /* NMapViewerLibAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMapViewerLibAppDelegate.m; sourceTree = "<group>"; };
+		56AAC75B1C9C4C2900B02759 /* NMapViewResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapViewResource.h; sourceTree = "<group>"; };
+		56AAC75C1C9C4C2900B02759 /* NMapViewResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMapViewResource.m; sourceTree = "<group>"; };
+		56AAC7601C9C4C2900B02759 /* NMacManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMacManager.h; sourceTree = "<group>"; };
+		56AAC7611C9C4C2900B02759 /* NServiceMacManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NServiceMacManager.h; sourceTree = "<group>"; };
+		56AAC7621C9C4C2900B02759 /* libApiGateway-MAC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libApiGateway-MAC.a"; sourceTree = "<group>"; };
+		56AAC7651C9C4C2900B02759 /* MMapReverseGeocoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMapReverseGeocoder.h; sourceTree = "<group>"; };
+		56AAC7661C9C4C2900B02759 /* NMapCircleData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapCircleData.h; sourceTree = "<group>"; };
+		56AAC7671C9C4C2900B02759 /* NMapCirclePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapCirclePoint.h; sourceTree = "<group>"; };
+		56AAC7681C9C4C2900B02759 /* NMapCircleStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapCircleStyle.h; sourceTree = "<group>"; };
+		56AAC7691C9C4C2900B02759 /* NMapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapController.h; sourceTree = "<group>"; };
+		56AAC76A1C9C4C2900B02759 /* NMapError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapError.h; sourceTree = "<group>"; };
+		56AAC76B1C9C4C2900B02759 /* NMapGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapGeometry.h; sourceTree = "<group>"; };
+		56AAC76C1C9C4C2900B02759 /* NMapLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapLocationManager.h; sourceTree = "<group>"; };
+		56AAC76D1C9C4C2900B02759 /* NMapMyLocationOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapMyLocationOverlay.h; sourceTree = "<group>"; };
+		56AAC76E1C9C4C2900B02759 /* NMapOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapOverlay.h; sourceTree = "<group>"; };
+		56AAC76F1C9C4C2900B02759 /* NMapOverlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapOverlayManager.h; sourceTree = "<group>"; };
+		56AAC7701C9C4C2900B02759 /* NMapPathData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapPathData.h; sourceTree = "<group>"; };
+		56AAC7711C9C4C2900B02759 /* NMapPathDataOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapPathDataOverlay.h; sourceTree = "<group>"; };
+		56AAC7721C9C4C2900B02759 /* NMapPathLineStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapPathLineStyle.h; sourceTree = "<group>"; };
+		56AAC7731C9C4C2900B02759 /* NMapPathPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapPathPoint.h; sourceTree = "<group>"; };
+		56AAC7741C9C4C2900B02759 /* NMapPathSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapPathSegment.h; sourceTree = "<group>"; };
+		56AAC7751C9C4C2900B02759 /* NMapPlacemark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapPlacemark.h; sourceTree = "<group>"; };
+		56AAC7761C9C4C2900B02759 /* NMapPOIdataOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapPOIdataOverlay.h; sourceTree = "<group>"; };
+		56AAC7771C9C4C2900B02759 /* NMapPOIitem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapPOIitem.h; sourceTree = "<group>"; };
+		56AAC7781C9C4C2900B02759 /* NMapProjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapProjection.h; sourceTree = "<group>"; };
+		56AAC7791C9C4C2900B02759 /* NMapRadiusSettingOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapRadiusSettingOverlay.h; sourceTree = "<group>"; };
+		56AAC77A1C9C4C2900B02759 /* NMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapView.h; sourceTree = "<group>"; };
+		56AAC77B1C9C4C2900B02759 /* NMapViewQuartz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapViewQuartz.h; sourceTree = "<group>"; };
+		56AAC77C1C9C4C2900B02759 /* NMapViewRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapViewRotation.h; sourceTree = "<group>"; };
+		56AAC77D1C9C4C2900B02759 /* libNMapViewer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNMapViewer.a; sourceTree = "<group>"; };
+		56AAC77E1C9C4C2900B02759 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56AAC77F1C9C4C2900B02759 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		56AAC7801C9C4C2900B02759 /* NMapViewerLib-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NMapViewerLib-Info.plist"; sourceTree = "<group>"; };
+		56AAC7811C9C4C2900B02759 /* NMapViewerLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = NMapViewerLib.xcodeproj; sourceTree = "<group>"; };
+		56AAC7841C9C4C2900B02759 /* NMapViewerLib_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapViewerLib_Prefix.pch; sourceTree = "<group>"; };
+		56AAC7851C9C4C2900B02759 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		56AAC7871C9C4C2900B02759 /* arr_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arr_icon.png; sourceTree = "<group>"; };
+		56AAC7881C9C4C2900B02759 /* arr_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arr_icon@2x.png"; sourceTree = "<group>"; };
+		56AAC7891C9C4C2900B02759 /* arr_icon_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arr_icon_over.png; sourceTree = "<group>"; };
+		56AAC78A1C9C4C2900B02759 /* arr_icon_over@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arr_icon_over@2x.png"; sourceTree = "<group>"; };
+		56AAC78B1C9C4C2900B02759 /* by_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = by_00.png; sourceTree = "<group>"; };
+		56AAC78C1C9C4C2900B02759 /* by_00_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = by_00_over.png; sourceTree = "<group>"; };
+		56AAC78D1C9C4C2900B02759 /* ic_angle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_angle.png; sourceTree = "<group>"; };
+		56AAC78E1C9C4C2900B02759 /* ic_angle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_angle@2x.png"; sourceTree = "<group>"; };
+		56AAC78F1C9C4C2900B02759 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		56AAC7901C9C4C2900B02759 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		56AAC7911C9C4C2900B02759 /* pin_ballon_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_ballon_arrow.png; sourceTree = "<group>"; };
+		56AAC7921C9C4C2900B02759 /* pin_ballon_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin_ballon_arrow@2x.png"; sourceTree = "<group>"; };
+		56AAC7931C9C4C2900B02759 /* pin_ballon_arrow_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_ballon_arrow_on.png; sourceTree = "<group>"; };
+		56AAC7941C9C4C2900B02759 /* pin_ballon_arrow_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin_ballon_arrow_on@2x.png"; sourceTree = "<group>"; };
+		56AAC7951C9C4C2900B02759 /* pin_ballon_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_ballon_bottom.png; sourceTree = "<group>"; };
+		56AAC7961C9C4C2900B02759 /* pin_ballon_bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin_ballon_bottom@2x.png"; sourceTree = "<group>"; };
+		56AAC7971C9C4C2900B02759 /* pin_ballon_center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_ballon_center.png; sourceTree = "<group>"; };
+		56AAC7981C9C4C2900B02759 /* pin_ballon_center@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin_ballon_center@2x.png"; sourceTree = "<group>"; };
+		56AAC7991C9C4C2900B02759 /* pin_ballon_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_ballon_left.png; sourceTree = "<group>"; };
+		56AAC79A1C9C4C2900B02759 /* pin_ballon_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin_ballon_left@2x.png"; sourceTree = "<group>"; };
+		56AAC79B1C9C4C2900B02759 /* pin_ballon_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_ballon_right.png; sourceTree = "<group>"; };
+		56AAC79C1C9C4C2900B02759 /* pin_ballon_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin_ballon_right@2x.png"; sourceTree = "<group>"; };
+		56AAC79D1C9C4C2900B02759 /* pubtrans_exact_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pubtrans_exact_default.png; sourceTree = "<group>"; };
+		56AAC79E1C9C4C2900B02759 /* pubtrans_exact_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pubtrans_exact_default@2x.png"; sourceTree = "<group>"; };
+		56AAC79F1C9C4C2900B02759 /* pubtrans_ic_mylocation_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pubtrans_ic_mylocation_off.png; sourceTree = "<group>"; };
+		56AAC7A01C9C4C2900B02759 /* pubtrans_ic_mylocation_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pubtrans_ic_mylocation_off@2x.png"; sourceTree = "<group>"; };
+		56AAC7A11C9C4C2900B02759 /* pubtrans_ic_mylocation_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pubtrans_ic_mylocation_on.png; sourceTree = "<group>"; };
+		56AAC7A21C9C4C2900B02759 /* pubtrans_ic_mylocation_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pubtrans_ic_mylocation_on@2x.png"; sourceTree = "<group>"; };
+		56AAC7A31C9C4C2900B02759 /* start_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start_icon.png; sourceTree = "<group>"; };
+		56AAC7A41C9C4C2900B02759 /* start_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start_icon@2x.png"; sourceTree = "<group>"; };
+		56AAC7A51C9C4C2900B02759 /* start_icon_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start_icon_over.png; sourceTree = "<group>"; };
+		56AAC7A61C9C4C2900B02759 /* start_icon_over@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start_icon_over@2x.png"; sourceTree = "<group>"; };
 		59102EE73AA6D6FA65D27994D294D003 /* Pods-NaverMap_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NaverMap_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5B58D9DF5DEE044C412CA3DC920F5A87 /* Pods_NaverMap_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaverMap_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F0286E3AC0828B0661AF7618DA44C08 /* NaverMap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NaverMap.modulemap; sourceTree = "<group>"; };
 		70CD51AFFA8FD767A3E67AB609FA7876 /* Pods-NaverMap_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaverMap_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		824DFACD4B06EA8C2E259E190FDAFDE0 /* Pods-NaverMap_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NaverMap_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		837D2202044C1AD9AC753A3986A390EF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		85BF3F6944565AB2BB04CDFB60ACB687 /* Pods-NaverMap_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaverMap_Example-resources.sh"; sourceTree = "<group>"; };
 		964B90DC3C5098F0A585768407A9636D /* Pods-NaverMap_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NaverMap_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9837879038D6C1C68B9EF88B8F3BE360 /* Pods-NaverMap_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaverMap_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -92,7 +242,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56AAC7C91C9C4C2900B02759 /* libNMapViewer.a in Frameworks */,
 				08350C3599B43C496076534AB48180DD /* Foundation.framework in Frameworks */,
+				56AAC7B01C9C4C2900B02759 /* libApiGateway-MAC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,7 +270,6 @@
 		019EF3D6A16391ADBE4D716C262364A8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				837D2202044C1AD9AC753A3986A390EF /* ReplaceMe.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -129,6 +280,150 @@
 				AB915276D15D96CD3333F49C3EE7D5A7 /* NaverMap */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		56AAC7541C9C4C2900B02759 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				56AAC7551C9C4C2900B02759 /* .gitignore */,
+				56AAC7561C9C4C2900B02759 /* Classes */,
+				56AAC75D1C9C4C2900B02759 /* Lib */,
+				56AAC77E1C9C4C2900B02759 /* main.m */,
+				56AAC77F1C9C4C2900B02759 /* MainWindow.xib */,
+				56AAC7801C9C4C2900B02759 /* NMapViewerLib-Info.plist */,
+				56AAC7811C9C4C2900B02759 /* NMapViewerLib.xcodeproj */,
+				56AAC7841C9C4C2900B02759 /* NMapViewerLib_Prefix.pch */,
+				56AAC7851C9C4C2900B02759 /* README.md */,
+				56AAC7861C9C4C2900B02759 /* Resources */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		56AAC7561C9C4C2900B02759 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				56AAC7571C9C4C2900B02759 /* NMapViewController.h */,
+				56AAC7581C9C4C2900B02759 /* NMapViewController.m */,
+				56AAC7591C9C4C2900B02759 /* NMapViewerLibAppDelegate.h */,
+				56AAC75A1C9C4C2900B02759 /* NMapViewerLibAppDelegate.m */,
+				56AAC75B1C9C4C2900B02759 /* NMapViewResource.h */,
+				56AAC75C1C9C4C2900B02759 /* NMapViewResource.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		56AAC75D1C9C4C2900B02759 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				56AAC75E1C9C4C2900B02759 /* ApiGateway */,
+				56AAC7631C9C4C2900B02759 /* NMapViewer */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		56AAC75E1C9C4C2900B02759 /* ApiGateway */ = {
+			isa = PBXGroup;
+			children = (
+				56AAC75F1C9C4C2900B02759 /* Headers */,
+				56AAC7621C9C4C2900B02759 /* libApiGateway-MAC.a */,
+			);
+			path = ApiGateway;
+			sourceTree = "<group>";
+		};
+		56AAC75F1C9C4C2900B02759 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				56AAC7601C9C4C2900B02759 /* NMacManager.h */,
+				56AAC7611C9C4C2900B02759 /* NServiceMacManager.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		56AAC7631C9C4C2900B02759 /* NMapViewer */ = {
+			isa = PBXGroup;
+			children = (
+				56AAC7641C9C4C2900B02759 /* Headers */,
+				56AAC77D1C9C4C2900B02759 /* libNMapViewer.a */,
+			);
+			path = NMapViewer;
+			sourceTree = "<group>";
+		};
+		56AAC7641C9C4C2900B02759 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				56AAC7651C9C4C2900B02759 /* MMapReverseGeocoder.h */,
+				56AAC7661C9C4C2900B02759 /* NMapCircleData.h */,
+				56AAC7671C9C4C2900B02759 /* NMapCirclePoint.h */,
+				56AAC7681C9C4C2900B02759 /* NMapCircleStyle.h */,
+				56AAC7691C9C4C2900B02759 /* NMapController.h */,
+				56AAC76A1C9C4C2900B02759 /* NMapError.h */,
+				56AAC76B1C9C4C2900B02759 /* NMapGeometry.h */,
+				56AAC76C1C9C4C2900B02759 /* NMapLocationManager.h */,
+				56AAC76D1C9C4C2900B02759 /* NMapMyLocationOverlay.h */,
+				56AAC76E1C9C4C2900B02759 /* NMapOverlay.h */,
+				56AAC76F1C9C4C2900B02759 /* NMapOverlayManager.h */,
+				56AAC7701C9C4C2900B02759 /* NMapPathData.h */,
+				56AAC7711C9C4C2900B02759 /* NMapPathDataOverlay.h */,
+				56AAC7721C9C4C2900B02759 /* NMapPathLineStyle.h */,
+				56AAC7731C9C4C2900B02759 /* NMapPathPoint.h */,
+				56AAC7741C9C4C2900B02759 /* NMapPathSegment.h */,
+				56AAC7751C9C4C2900B02759 /* NMapPlacemark.h */,
+				56AAC7761C9C4C2900B02759 /* NMapPOIdataOverlay.h */,
+				56AAC7771C9C4C2900B02759 /* NMapPOIitem.h */,
+				56AAC7781C9C4C2900B02759 /* NMapProjection.h */,
+				56AAC7791C9C4C2900B02759 /* NMapRadiusSettingOverlay.h */,
+				56AAC77A1C9C4C2900B02759 /* NMapView.h */,
+				56AAC77B1C9C4C2900B02759 /* NMapViewQuartz.h */,
+				56AAC77C1C9C4C2900B02759 /* NMapViewRotation.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		56AAC7821C9C4C2900B02759 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56AAC7F11C9C4C2900B02759 /* NMapViewerLib.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56AAC7861C9C4C2900B02759 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				56AAC7871C9C4C2900B02759 /* arr_icon.png */,
+				56AAC7881C9C4C2900B02759 /* arr_icon@2x.png */,
+				56AAC7891C9C4C2900B02759 /* arr_icon_over.png */,
+				56AAC78A1C9C4C2900B02759 /* arr_icon_over@2x.png */,
+				56AAC78B1C9C4C2900B02759 /* by_00.png */,
+				56AAC78C1C9C4C2900B02759 /* by_00_over.png */,
+				56AAC78D1C9C4C2900B02759 /* ic_angle.png */,
+				56AAC78E1C9C4C2900B02759 /* ic_angle@2x.png */,
+				56AAC78F1C9C4C2900B02759 /* Icon.png */,
+				56AAC7901C9C4C2900B02759 /* Icon@2x.png */,
+				56AAC7911C9C4C2900B02759 /* pin_ballon_arrow.png */,
+				56AAC7921C9C4C2900B02759 /* pin_ballon_arrow@2x.png */,
+				56AAC7931C9C4C2900B02759 /* pin_ballon_arrow_on.png */,
+				56AAC7941C9C4C2900B02759 /* pin_ballon_arrow_on@2x.png */,
+				56AAC7951C9C4C2900B02759 /* pin_ballon_bottom.png */,
+				56AAC7961C9C4C2900B02759 /* pin_ballon_bottom@2x.png */,
+				56AAC7971C9C4C2900B02759 /* pin_ballon_center.png */,
+				56AAC7981C9C4C2900B02759 /* pin_ballon_center@2x.png */,
+				56AAC7991C9C4C2900B02759 /* pin_ballon_left.png */,
+				56AAC79A1C9C4C2900B02759 /* pin_ballon_left@2x.png */,
+				56AAC79B1C9C4C2900B02759 /* pin_ballon_right.png */,
+				56AAC79C1C9C4C2900B02759 /* pin_ballon_right@2x.png */,
+				56AAC79D1C9C4C2900B02759 /* pubtrans_exact_default.png */,
+				56AAC79E1C9C4C2900B02759 /* pubtrans_exact_default@2x.png */,
+				56AAC79F1C9C4C2900B02759 /* pubtrans_ic_mylocation_off.png */,
+				56AAC7A01C9C4C2900B02759 /* pubtrans_ic_mylocation_off@2x.png */,
+				56AAC7A11C9C4C2900B02759 /* pubtrans_ic_mylocation_on.png */,
+				56AAC7A21C9C4C2900B02759 /* pubtrans_ic_mylocation_on@2x.png */,
+				56AAC7A31C9C4C2900B02759 /* start_icon.png */,
+				56AAC7A41C9C4C2900B02759 /* start_icon@2x.png */,
+				56AAC7A51C9C4C2900B02759 /* start_icon_over.png */,
+				56AAC7A61C9C4C2900B02759 /* start_icon_over@2x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -205,6 +500,7 @@
 		CD6943F06B391AF0DFC0D9CF3F3D82CA /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				56AAC7541C9C4C2900B02759 /* SDK */,
 				019EF3D6A16391ADBE4D716C262364A8 /* Classes */,
 			);
 			path = Pod;
@@ -261,7 +557,37 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56AAC7C11C9C4C2900B02759 /* NMapPlacemark.h in Headers */,
+				56AAC7B11C9C4C2900B02759 /* MMapReverseGeocoder.h in Headers */,
+				56AAC7C21C9C4C2900B02759 /* NMapPOIdataOverlay.h in Headers */,
+				56AAC7BA1C9C4C2900B02759 /* NMapOverlay.h in Headers */,
+				56AAC7BB1C9C4C2900B02759 /* NMapOverlayManager.h in Headers */,
+				56AAC7C01C9C4C2900B02759 /* NMapPathSegment.h in Headers */,
+				56AAC7BE1C9C4C2900B02759 /* NMapPathLineStyle.h in Headers */,
+				56AAC7BF1C9C4C2900B02759 /* NMapPathPoint.h in Headers */,
+				56AAC7BD1C9C4C2900B02759 /* NMapPathDataOverlay.h in Headers */,
+				56AAC7B71C9C4C2900B02759 /* NMapGeometry.h in Headers */,
 				BB2584D70CFDCBD4FBBD272F0386DC95 /* NaverMap-umbrella.h in Headers */,
+				56AAC7A81C9C4C2900B02759 /* NMapViewController.h in Headers */,
+				56AAC7AA1C9C4C2900B02759 /* NMapViewerLibAppDelegate.h in Headers */,
+				56AAC7CD1C9C4C2900B02759 /* NMapViewerLib_Prefix.pch in Headers */,
+				56AAC7B91C9C4C2900B02759 /* NMapMyLocationOverlay.h in Headers */,
+				56AAC7AE1C9C4C2900B02759 /* NMacManager.h in Headers */,
+				56AAC7C61C9C4C2900B02759 /* NMapView.h in Headers */,
+				56AAC7AC1C9C4C2900B02759 /* NMapViewResource.h in Headers */,
+				56AAC7C71C9C4C2900B02759 /* NMapViewQuartz.h in Headers */,
+				56AAC7B41C9C4C2900B02759 /* NMapCircleStyle.h in Headers */,
+				56AAC7C31C9C4C2900B02759 /* NMapPOIitem.h in Headers */,
+				56AAC7B21C9C4C2900B02759 /* NMapCircleData.h in Headers */,
+				56AAC7B81C9C4C2900B02759 /* NMapLocationManager.h in Headers */,
+				56AAC7BC1C9C4C2900B02759 /* NMapPathData.h in Headers */,
+				56AAC7C51C9C4C2900B02759 /* NMapRadiusSettingOverlay.h in Headers */,
+				56AAC7C41C9C4C2900B02759 /* NMapProjection.h in Headers */,
+				56AAC7B31C9C4C2900B02759 /* NMapCirclePoint.h in Headers */,
+				56AAC7AF1C9C4C2900B02759 /* NServiceMacManager.h in Headers */,
+				56AAC7C81C9C4C2900B02759 /* NMapViewRotation.h in Headers */,
+				56AAC7B51C9C4C2900B02759 /* NMapController.h in Headers */,
+				56AAC7B61C9C4C2900B02759 /* NMapError.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +693,12 @@
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = 7F5A30D3CB2FBE151F3A465CA8B27F5E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 56AAC7821C9C4C2900B02759 /* Products */;
+					ProjectRef = 56AAC7811C9C4C2900B02759 /* NMapViewerLib.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				22D859AE8ED8D015244E17288EC74837 /* NaverMap */,
@@ -377,12 +709,57 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		56AAC7F11C9C4C2900B02759 /* NMapViewerLib.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = NMapViewerLib.app;
+			remoteRef = 56AAC7F01C9C4C2900B02759 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		28191463EAC55D4D0B3D5036E4CC45B2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56AAC7CF1C9C4C2900B02759 /* arr_icon.png in Resources */,
+				56AAC7DD1C9C4C2900B02759 /* pin_ballon_bottom.png in Resources */,
+				56AAC7EA1C9C4C2900B02759 /* pubtrans_ic_mylocation_on@2x.png in Resources */,
+				56AAC7D21C9C4C2900B02759 /* arr_icon_over@2x.png in Resources */,
+				56AAC7D31C9C4C2900B02759 /* by_00.png in Resources */,
+				56AAC7CC1C9C4C2900B02759 /* NMapViewerLib-Info.plist in Resources */,
+				56AAC7E61C9C4C2900B02759 /* pubtrans_exact_default@2x.png in Resources */,
+				56AAC7D41C9C4C2900B02759 /* by_00_over.png in Resources */,
+				56AAC7A71C9C4C2900B02759 /* .gitignore in Resources */,
 				BE3ED2A43D3A7D31AF6DC608F35860D7 /* NaverMap.bundle in Resources */,
+				56AAC7DB1C9C4C2900B02759 /* pin_ballon_arrow_on.png in Resources */,
+				56AAC7D71C9C4C2900B02759 /* Icon.png in Resources */,
+				56AAC7EE1C9C4C2900B02759 /* start_icon_over@2x.png in Resources */,
+				56AAC7E11C9C4C2900B02759 /* pin_ballon_left.png in Resources */,
+				56AAC7E81C9C4C2900B02759 /* pubtrans_ic_mylocation_off@2x.png in Resources */,
+				56AAC7E21C9C4C2900B02759 /* pin_ballon_left@2x.png in Resources */,
+				56AAC7D11C9C4C2900B02759 /* arr_icon_over.png in Resources */,
+				56AAC7D81C9C4C2900B02759 /* Icon@2x.png in Resources */,
+				56AAC7CB1C9C4C2900B02759 /* MainWindow.xib in Resources */,
+				56AAC7D91C9C4C2900B02759 /* pin_ballon_arrow.png in Resources */,
+				56AAC7DC1C9C4C2900B02759 /* pin_ballon_arrow_on@2x.png in Resources */,
+				56AAC7EB1C9C4C2900B02759 /* start_icon.png in Resources */,
+				56AAC7E31C9C4C2900B02759 /* pin_ballon_right.png in Resources */,
+				56AAC7DA1C9C4C2900B02759 /* pin_ballon_arrow@2x.png in Resources */,
+				56AAC7DF1C9C4C2900B02759 /* pin_ballon_center.png in Resources */,
+				56AAC7D51C9C4C2900B02759 /* ic_angle.png in Resources */,
+				56AAC7D61C9C4C2900B02759 /* ic_angle@2x.png in Resources */,
+				56AAC7E51C9C4C2900B02759 /* pubtrans_exact_default.png in Resources */,
+				56AAC7E91C9C4C2900B02759 /* pubtrans_ic_mylocation_on.png in Resources */,
+				56AAC7D01C9C4C2900B02759 /* arr_icon@2x.png in Resources */,
+				56AAC7DE1C9C4C2900B02759 /* pin_ballon_bottom@2x.png in Resources */,
+				56AAC7E01C9C4C2900B02759 /* pin_ballon_center@2x.png in Resources */,
+				56AAC7E71C9C4C2900B02759 /* pubtrans_ic_mylocation_off.png in Resources */,
+				56AAC7EC1C9C4C2900B02759 /* start_icon@2x.png in Resources */,
+				56AAC7E41C9C4C2900B02759 /* pin_ballon_right@2x.png in Resources */,
+				56AAC7ED1C9C4C2900B02759 /* start_icon_over.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,8 +784,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56AAC7A91C9C4C2900B02759 /* NMapViewController.m in Sources */,
+				56AAC7AD1C9C4C2900B02759 /* NMapViewResource.m in Sources */,
 				6A4A135B35EA795DAE6A6922540967A6 /* NaverMap-dummy.m in Sources */,
-				B43B5DEED2C29AF8AABFF9941BCBB270 /* ReplaceMe.m in Sources */,
+				56AAC7CE1C9C4C2900B02759 /* README.md in Sources */,
+				56AAC7AB1C9C4C2900B02759 /* NMapViewerLibAppDelegate.m in Sources */,
+				56AAC7CA1C9C4C2900B02759 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
