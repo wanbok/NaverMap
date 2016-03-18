@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1D4D235E38EB1EB6694F3D37'
+               BlueprintIdentifier = '811A92E0E1D2879052C1E388'
                BlueprintName = 'NaverMap'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'NaverMap.framework'>

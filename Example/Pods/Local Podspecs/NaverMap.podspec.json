@@ -10,7 +10,8 @@
   },
   "source": {
     "git": "https://github.com/wanbok/NaverMap.git",
-    "tag": "0.1.0"
+    "tag": "0.1.0",
+    "submodules": true
   },
   "social_media_url": "https://fb.me/wanbok",
   "platforms": {
@@ -22,9 +23,10 @@
       "Pod/SDK/Resources/*.png"
     ]
   },
-  "source_files": "Pod/Classes/**/*.h",
-  "public_header_files": "Pod/SDK/Lib/**/Headers/*.h",
-  "module_map": "Pod/Support Files/NaverMap.modulemap",
+  "public_header_files": [
+    "Pod/Module/**/*",
+    "Pod/SDK/Lib/**/Headers/*.h"
+  ],
   "vendored_libraries": [
     "Pod/SDK/Lib/ApiGateway/libApiGateway-MAC.a",
     "Pod/SDK/Lib/NMapViewer/libNMapViewer.a"

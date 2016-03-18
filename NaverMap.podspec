@@ -11,15 +11,17 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/wanbok/NaverMap'
   s.license          = 'MIT'
   s.author           = { "Wanbok Choi" => "choi@wanbok.com" }
-  s.source           = { :git => "https://github.com/wanbok/NaverMap.git", :tag => s.version.to_s }
+  s.source           = {
+    :git => "https://github.com/wanbok/NaverMap.git",
+    :tag => s.version.to_s,
+    :submodules => true
+  }
   s.social_media_url = 'https://fb.me/wanbok'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
   s.resource_bundles = { 'NaverMap' => ['Pod/SDK/Resources/*.png'] }
-  s.source_files = 'Pod/Classes/**/*.h'
-  s.public_header_files = 'Pod/SDK/Lib/**/Headers/*.h'
-  s.module_map = 'Pod/Support Files/NaverMap.modulemap'
+  s.public_header_files = 'Pod/Module/**/*', 'Pod/SDK/Lib/**/Headers/*.h'
   s.vendored_libraries = 'Pod/SDK/Lib/ApiGateway/libApiGateway-MAC.a', 'Pod/SDK/Lib/NMapViewer/libNMapViewer.a'
   s.frameworks = 'UIKit', 'CoreGraphics', 'QuartzCore', 'CoreLocation', 'SystemConfiguration'
   s.library = 'sqlite3', 'xml2'
