@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'NaverMap_Example', :exclusive => true do
+  pod 'NaverMap', :path => '../'
+end
+
+target 'NaverMap_Tests', :exclusive => true do
+  pod 'NaverMap', :path => '../'
+
+  
+end
