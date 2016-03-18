@@ -1,0 +1,14 @@
+PODS:
+  - NaverMap (0.1.0)
+
+DEPENDENCIES:
+  - NaverMap (from `../`)
+
+EXTERNAL SOURCES:
+  NaverMap:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NaverMap: a1be6b60ca2293747fe811f0640c9fa25bb3a3fc
+
+COCOAPODS: 0.39.0
