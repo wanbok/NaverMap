@@ -7,6 +7,7 @@
 //
 
 #import "NViewController.h"
+#import "NMapView.h"
 
 @interface NViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    CGRect frame = [[UIScreen mainScreen] bounds];
+    NMapView* mapView = [[NMapView alloc] initWithFrame:frame];
+    [self.view addSubview:mapView];
 }
 
 - (void)didReceiveMemoryWarning
